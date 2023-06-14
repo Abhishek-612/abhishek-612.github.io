@@ -60,7 +60,7 @@ const About = () => {
 											style={{
 											paddingTop: '10px' }}>
 										<a
-											href={INFO.resume.sde}
+											href="%PUBLIC_URL%/resume_sde.html"
 											target="_blank"
 											rel="noreferrer"
 											style={{textDecoration: 'none', 
@@ -74,7 +74,7 @@ const About = () => {
 										style={{
 										paddingTop: '20px' }}>
 									<a
-										href={INFO.resume.ds}
+										href="%PUBLIC_URL%/resume_ds.html"
 										target="_blank"
 										rel="noreferrer"
 										style={{textDecoration: 'none', 
