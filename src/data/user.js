@@ -14,8 +14,8 @@ const INFO = {
 	},
 
 	resume: {
-		sde: "/resume_sde.html",
-		ds: "/resume_ds.html",
+		sde: "../resume_sde.html",
+		ds: "../resume_ds.html",
 	},
 
 	homepage: {
