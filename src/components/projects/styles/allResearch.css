@@ -1,0 +1,19 @@
+.all-research-container {
+	display: flex;
+	flex-direction: column;
+	padding-top: 30px;
+	padding-bottom: 30px;
+  }
+  
+  .all-research-project {
+	box-sizing: border-box;
+	padding: 10px;
+	overflow: hidden;
+	border-bottom: 1px solid #ccc;
+  }
+  
+  @media (max-width: 600px) {
+	.all-research-project {
+	  width: 100%;
+	}
+  }
