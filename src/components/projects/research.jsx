@@ -26,12 +26,14 @@ const Research = (props) => {
 								</strong>
 							</div> : null }
 						<div className="cites-container" >
-						<div className="research-link">
-							<div className="research-link-icon">
-								<FontAwesomeIcon icon={faLink} />
-							</div>
-							<div className="research-link-text">{linkText}</div>
-						</div>
+						{ (linkText.length !== 0) ?
+							<div className="research-link">
+								<div className="research-link-icon">
+									<FontAwesomeIcon icon={faLink} />
+								</div>
+								<div className="research-link-text">{linkText}</div>
+							</div> 
+						: null }
 						{ (cites > 0) ? <div className="research-cites">Cited by {cites}</div> : null }
 						
 						</div>
