@@ -174,6 +174,16 @@ const INFO = {
 		},
 
 		{
+			title: "Distributed Movie Ticket Booking System",
+			description:
+				"A distributed client-server application built using Python, leveraging socket programming and Remote Procedure Call (RPC) mechanism. The system is designed to provide a seamless ticket booking experience for users. It follows a distributed architecture, with multiple servers and a load balancer for efficient handling of user requests. The project utilizes Nginx as the load balancer, ensuring optimal distribution of incoming traffic across three different locations, each equipped with three server ports.",
+			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/python/python.png",
+			linkText: "View Project",
+			link: "https://github.com/Abhishek-612/Distributed-Movie-Ticket-Booking-System",
+			ongoing: false,
+		},
+		
+		{
 			title: "Viral News Prediction",
 			description:
 				"A project that utilizes advanced web crawling techniques to retrieve up-to-date news and information from credible online sources. By leveraging social media outreach and news agency coverage, it employs predictive analysis to estimate the potential virality of each headline, providing valuable insights into the expected degree of its spread across platforms.",

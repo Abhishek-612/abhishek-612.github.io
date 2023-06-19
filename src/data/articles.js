@@ -104,7 +104,6 @@ function bnp_article() {
 }
 
 
-
 function spit_article() {
 	return {
 		date: "21 January 2022",
@@ -171,7 +170,7 @@ function spit_article() {
 			}
 		`,
 		keywords: [
-			'Software Engineer', 'BNP Paribas', 'Developer', 'Fresher'
+			'Research', 'Machine Learning', 'Data Science', 'Mentor', 'Teaching'
 		],
 		body: (
 			<React.Fragment>
@@ -210,6 +209,136 @@ function spit_article() {
 	};
 }
 
-const myArticles = [bnp_article, spit_article];
+
+function oculus_article() {
+	return {
+		date: "31 March, 2020",
+		title: "Igniting Passion, Unleashing Creativity, and Leaving an Impact: The Extravaganza of Oculus 2020",
+		description:
+		"Step into the vibrant world of Oculus 2020, the annual techno-cultural festival of Sardar Patel Institute of Technology. Join me on a journey through the exhilarating moments and the impact we created.",
+		style: `
+			.article-content {
+				display: flex;
+				flex-direction: column;
+				align-items: left;
+				max-width: 800px;
+				margin: 0 auto;
+				padding: 20px;
+				background-color: #fafafa;
+				border-radius: 8px;
+				box-shadow: 0px 0px 24px rgba(0, 0, 0, 0.3);
+			}
+
+			.homepage-image {
+				width: 100%;
+				display: flex;
+				flex-direction: row;
+				border-radius: 8px;
+				margin-bottom: 20px;
+				align-items: center;
+			}
+
+			.homepage-image img {
+				width: 45%; 
+				height: auto;
+				padding: 15px;
+			}
+
+			h1 {
+				font-size: 28px;
+				margin-bottom: 20px;
+				text-align: center;
+			}
+
+			h2 {
+				font-size: 20px;
+				margin-top: 10px;
+				margin-bottom: 5px;
+			}
+
+			p {
+				font-size: 18px;
+				line-height: 1.6;
+				margin-bottom: 20px;
+			}
+
+			.call-to-action-image {
+				width: 100%;
+				border-radius: 8px;
+				margin-top: 40px;
+				margin-bottom: 20px;
+			}
+
+			.call-to-action {
+				text-align: center;
+				font-size: 18px;
+				font-weight: bold;
+			}
+		`,
+		keywords: [
+			'Festival', 'College', 'Event Management', 'Vicechairpersor', 'Organiser', 'Donation', 'Fundraiser'
+		],
+		body: 
+		<React.Fragment>
+			<article class="article-content">
+
+				<div class="homepage-image">
+					<iframe width="100%" src="https://youtu.be/-Xxr4L3M59M" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+				</div>
+
+				<h1>Igniting Passion, Unleashing Creativity, and Leaving an Impact: The Extravaganza of Oculus 2020</h1>
+				<p>Step into the mesmerizing world of Oculus 2020, the annual techno-cultural festival of Sardar Patel Institute of Technology. As the Vice Chairperson, I had the privilege of orchestrating a lineup of captivating events that celebrated diversity, innovation, and community. Join me on a journey through the exhilarating moments and the impact we created.</p>
+
+				<h2>A Tapestry of Enthralling Events</h2>
+				<p>Oculus 2020 showcased a diverse range of events that captivated the imagination of our college community. From the glitz and glamour of the dazzling fashion show to the harmonious melodies of Sargam, a captivating singing competition, every event was curated to showcase the talents and passions of our students.</p>
+
+				<h2>Unleashing the Dance Revolution</h2>
+				<p>The pulsating dance competition, Aelan-e-jung, set the stage ablaze with mesmerizing moves and breathtaking choreography. Participants pushed their boundaries, leaving the audience spellbound and craving more.</p>
+
+				<h2>The Battle of Wits and Skills</h2>
+				<p>Oculus Coding League challenged aspiring programmers to showcase their coding prowess, while Capture the Flag immersed participants in an adrenaline-fueled cybersecurity adventure. These events tested strategic thinking and problem-solving abilities.</p>
+
+				<h2>Thrills and Adrenaline Rush</h2>
+				<p>Adventure enthusiasts found their thrill in events like Paintball, where adrenaline-pumping battles took place, and Tech Race, a thrilling scavenger hunt across the vibrant streets of Mumbai. These events fostered teamwork and brought out the competitive spirit in the participants.</p>
+
+				<h2>A Melodic Symphony</h2>
+				<p>Sunburn music fest created an electric atmosphere, where pulsating beats and electrifying performances set the stage on fire. The crowd swayed to the rhythm, creating memories that would last a lifetime.</p>
+
+				<h2>Exploring the Financial Frontier</h2>
+				<p>The virtual stock market provided an immersive experience in trading, allowing participants to test their investment acumen and learn about financial markets.</p>
+
+				<h2>Star-Studded Encounters</h2>
+				<p>Oculus 2020 offered unique opportunities to meet and greet popular stars like Ayushman Khurrana and Jitendra Singh. These interactions not only brought excitement but also raised awareness about important social issues, such as LGBTQ+ rights and acceptance.</p>
+				
+				<div class="homepage-image">
+					<iframe width="100%" src="https://youtu.be/EJdX7qy63yc" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+				</div>
+
+				<h2>An Evening of Expression</h2>
+				<p>The enchanting open-mic night at the amphitheater provided a platform for budding artists to showcase their talents and share their stories. It created a vibrant and inclusive atmosphere where voices were heard and appreciated.</p>
+
+				<h2>Immersive Experiences, Collaboration, and Impact</h2>
+				<p>As the Vice Chairperson, I spearheaded the coordination of over 20 captivating events, attracting a footfall of 3000 enthusiastic participants. Oculus 2020 embraced a spirit of social responsibility, organizing a donation drive and fundraiser campaign in collaboration with the Cancer Patients Aid Association (CPAA). Together, we raised approximately Rs. 18,000 to support those battling cancer.</p>
+					<div class="homepage-image">
+						<iframe width="100%" src="https://youtu.be/JbsFZqm-FPI" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+					</div>
+				<p>Recognizing the power of collaboration, Oculus 2020 joined forces with various college committees, fostering an environment where innovation and creativity flourished. By nurturing partnerships, we curated an unforgettable festival that transcended boundaries and united the college community.</p>
+
+				<h2>The Art of Seamless Execution</h2>
+				<p>With a keen eye for detail, I took charge of artist management and ensured the smooth operation of logistical aspects. From curating a captivating lineup to meticulously planning schedules and venue preparations, every aspect of the festival ran seamlessly, providing attendees with a truly immersive experience.</p>
+
+				<h2>Moments to Cherish</h2>
+				<p>Oculus 2020 was a whirlwind of unforgettable moments that ignited passion, unleashed creativity, and left a lasting impact. The festival celebrated diversity, showcased talents, and fostered a sense of community. As the Vice Chairperson, I am grateful for the opportunity to have contributed to the legacy of Sardar Patel Institute of Technology's prestigious festival. The memories created during Oculus 2020 will forever remain etched in our hearts, reminding us of the incredible journey we embarked upon together.</p>
+
+				<p class="call-to-action">#OculusSeesAll</p>
+				</article>
+		</React.Fragment>
+		,
+	};
+}
+
+
+
+const myArticles = [bnp_article, spit_article, oculus_article];
 
 export default myArticles;

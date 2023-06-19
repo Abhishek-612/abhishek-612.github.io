@@ -23,7 +23,8 @@ import myArticles from "../data/articles";
 import "./styles/homepage.css";
 
 const Homepage = () => {
-  const { darkMode } = useContext(ThemeContext);
+  const { darkMode } = false;
+  // const { darkMode } = useContext(ThemeContext);
   const [stayLogo, setStayLogo] = useState(false);
   const [logoSize, setLogoSize] = useState(80);
   const [oldLogoSize, setOldLogoSize] = useState(80);
