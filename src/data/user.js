@@ -33,7 +33,7 @@ const INFO = {
 	articles: {
 		title: "I'm passionate about pushing the boundaries of what's possible and inspiring the next generation of innovators.",
 		description:
-			"Chronological collection of my long-form thoughts on programming, leadership, product design, and more.",
+			"Chronological collection of my most cherished memories and achievements that have been influential in shaping me.",
 	},
 
 	research: [

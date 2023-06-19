@@ -50,7 +50,7 @@ const About = () => {
 								</div>
 								<div>
 									<div className="project-specific-subtitle">
-										Want more details? 
+										Looking to Collaborate?
 									</div>
 									<div className="subtitle about-subtitle">
 										Find my resume below for more information:

@@ -283,7 +283,7 @@ function oculus_article() {
 			<article class="article-content">
 
 				<div class="homepage-image">
-					<iframe width="100%" src="https://youtu.be/-Xxr4L3M59M" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+				<iframe width="100%" height="380" src="https://www.youtube.com/embed/-Xxr4L3M59M" title="Oculus 2020 - Aftermovie" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 				</div>
 
 				<h1>Igniting Passion, Unleashing Creativity, and Leaving an Impact: The Extravaganza of Oculus 2020</h1>
@@ -296,7 +296,8 @@ function oculus_article() {
 				<p>The pulsating dance competition, Aelan-e-jung, set the stage ablaze with mesmerizing moves and breathtaking choreography. Participants pushed their boundaries, leaving the audience spellbound and craving more.</p>
 
 				<h2>The Battle of Wits and Skills</h2>
-				<p>Oculus Coding League challenged aspiring programmers to showcase their coding prowess, while Capture the Flag immersed participants in an adrenaline-fueled cybersecurity adventure. These events tested strategic thinking and problem-solving abilities.</p>
+				<p>Oculus Coding League challenged aspiring programmers to showcase their coding prowess, while Capture the Flag immersed participants in an adrenaline-fueled cybersecurity adventure. These events tested strategic thinking and problem-solving abilities.
+					And, for the future pioneers of the financial frontier, the virtual stock market provided an immersive experience in trading, allowing participants to test their investment acumen and learn about financial markets.</p>
 
 				<h2>Thrills and Adrenaline Rush</h2>
 				<p>Adventure enthusiasts found their thrill in events like Paintball, where adrenaline-pumping battles took place, and Tech Race, a thrilling scavenger hunt across the vibrant streets of Mumbai. These events fostered teamwork and brought out the competitive spirit in the participants.</p>
@@ -304,15 +305,10 @@ function oculus_article() {
 				<h2>A Melodic Symphony</h2>
 				<p>Sunburn music fest created an electric atmosphere, where pulsating beats and electrifying performances set the stage on fire. The crowd swayed to the rhythm, creating memories that would last a lifetime.</p>
 
-				<h2>Exploring the Financial Frontier</h2>
-				<p>The virtual stock market provided an immersive experience in trading, allowing participants to test their investment acumen and learn about financial markets.</p>
-
 				<h2>Star-Studded Encounters</h2>
-				<p>Oculus 2020 offered unique opportunities to meet and greet popular stars like Ayushman Khurrana and Jitendra Singh. These interactions not only brought excitement but also raised awareness about important social issues, such as LGBTQ+ rights and acceptance.</p>
+				<p>Oculus 2020 offered unique opportunities to meet and greet popular stars like <i>Ayushmann Khurrana</i> and <i>Jitendra Kumar</i>. These interactions not only brought excitement but also raised awareness about important social issues, such as LGBTQ+ rights and acceptance, through their movie <i>"Shubh Mangal Zyada Saavdhan"</i>.</p>
 				
-				<div class="homepage-image">
-					<iframe width="100%" src="https://youtu.be/EJdX7qy63yc" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-				</div>
+				<img src="/ayushman.jpeg" alt="oculus" className="homepage-image" />
 
 				<h2>An Evening of Expression</h2>
 				<p>The enchanting open-mic night at the amphitheater provided a platform for budding artists to showcase their talents and share their stories. It created a vibrant and inclusive atmosphere where voices were heard and appreciated.</p>
@@ -320,7 +316,7 @@ function oculus_article() {
 				<h2>Immersive Experiences, Collaboration, and Impact</h2>
 				<p>As the Vice Chairperson, I spearheaded the coordination of over 20 captivating events, attracting a footfall of 3000 enthusiastic participants. Oculus 2020 embraced a spirit of social responsibility, organizing a donation drive and fundraiser campaign in collaboration with the Cancer Patients Aid Association (CPAA). Together, we raised approximately Rs. 18,000 to support those battling cancer.</p>
 					<div class="homepage-image">
-						<iframe width="100%" src="https://youtu.be/JbsFZqm-FPI" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+						<iframe width="100%" height="428" src="https://www.youtube.com/embed/JbsFZqm-FPI" title="OCULUS FOR A CAUSE" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 					</div>
 				<p>Recognizing the power of collaboration, Oculus 2020 joined forces with various college committees, fostering an environment where innovation and creativity flourished. By nurturing partnerships, we curated an unforgettable festival that transcended boundaries and united the college community.</p>
 
@@ -330,6 +326,7 @@ function oculus_article() {
 				<h2>Moments to Cherish</h2>
 				<p>Oculus 2020 was a whirlwind of unforgettable moments that ignited passion, unleashed creativity, and left a lasting impact. The festival celebrated diversity, showcased talents, and fostered a sense of community. As the Vice Chairperson, I am grateful for the opportunity to have contributed to the legacy of Sardar Patel Institute of Technology's prestigious festival. The memories created during Oculus 2020 will forever remain etched in our hearts, reminding us of the incredible journey we embarked upon together.</p>
 
+				<img src="/redbull.jpg" alt="call-to-action" className="call-to-action-image"	/>
 				<p class="call-to-action">#OculusSeesAll</p>
 				</article>
 		</React.Fragment>
