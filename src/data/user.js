@@ -2,7 +2,7 @@ const INFO = {
 	main: {
 		title: "Abhishek's Portfolio",
 		name: "Abhishek Revadekar",
-		email: "arevadekar@cs.stonybrook.edu",
+		email: "abhirevadekar@gmail.com",
 		logo: "../logo.png",
 	},
 
@@ -25,13 +25,13 @@ const INFO = {
 	},
 
 	about: {
-		title: "Hey, I'm Abhishek, a student, a developer, a dancer and I am here to figure how the universe works!",
+		title: "Hey there!",
 		description:
-			"I've worked on a variety of projects over the years and I'm proud of the progress I've made. Many of these projects are open-source and available for others to explore and contribute to. If you're interested in any of the projects I've worked on, please feel free to check out the code and suggest any improvements or enhancements you might have in mind. Collaborating with others is a great way to learn and grow, and I'm always open to new ideas and feedback.",
+			"I'm Abhishek, a passionate student, developer, and dancer. Join me on an exciting journey as we unravel the boundless possibilities of creativity, dive into the depths of technology, and embrace the sheer beauty of life's wonders. Let's embark on an adventure together!",
 	},
 
 	articles: {
-		title: "I'm passionate about pushing the boundaries of what's possible and inspiring the next generation of innovators.",
+		title: "Journey Through Time: Unveiling Milestones and Transformative Experiences",
 		description:
 			"Chronological collection of my most cherished memories and achievements that have been influential in shaping me.",
 	},
@@ -102,7 +102,7 @@ const INFO = {
 			title: "MMAP: A Multi-Modal Automated Online Proctor",
 			publishDate: "30 September 2021",
 			conference: "2021 Machine Learning and Big Data Analytics (ICMLBDA)",
-			cites: "0",
+			cites: "2",
 			description:
 				"This paper addresses the challenge of monitoring students during online examinations in the context of the growing popularity of online education. It proposes a comprehensive five-fold proctoring mechanism based on computer vision techniques, including authentication, head movement, eye motion tracking, speech detection, and object detection. The solution achieves an impressive overall accuracy of 91%, offering a robust approach to mitigate malpractices in online tests.",
 			ongoing: false,

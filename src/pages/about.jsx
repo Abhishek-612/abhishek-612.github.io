@@ -92,7 +92,7 @@ const About = () => {
 								<div className="about-image-container">
 									<div className="about-image-wrapper">
 										<img
-											src="about.jpg"
+											src="abhishek photo.png"
 											alt="about"
 											className="about-image"
 										/>
