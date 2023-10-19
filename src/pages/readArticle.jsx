@@ -18,7 +18,7 @@ const ReadArticle = () => {
 	const navigate = useNavigate();
 	let { slug } = useParams();
 
-	const article = myArticles[slug - 1];
+	const article = myArticles.find((article) => article.slug === slug);
 
 	useEffect(() => {
 		window.scrollTo(0, 0);
