@@ -1,5 +1,5 @@
 import { useEffect } from "react";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { HashRouter, Routes, Route } from "react-router-dom";
 import ReactGA from "react-ga4";
 
 import Homepage from "./pages/homepage";
@@ -22,9 +22,9 @@ function App() {
 
 	return (
 		<div className="App">
-			<BrowserRouter>
+			<HashRouter>
 				<Routes>
-					<Route path="/" element={<Homepage />} />
+					<Route path="/" element={<Homepage />}/>
 					<Route path="/about" element={<About />} />
 					<Route path="/projects" element={<Projects />} />
 					<Route path="/articles" element={<Articles />} />
@@ -33,7 +33,7 @@ function App() {
 					<Route path="/contact" element={<Contact />} />
 					<Route path="*" element={<Notfound />} />
 				</Routes>
-			</BrowserRouter>
+			</HashRouter>
 		</div>
 	);
 }
