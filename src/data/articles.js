@@ -276,6 +276,613 @@ function oculus_article() {
 			}
 		`,
 		keywords: [
+			'Festival', 'College', 'Event Management', 'Vicechairperson', 'Organiser', 'Donation', 'Fundraiser'
+		],
+		body: 
+		<React.Fragment>
+			<article class="article-content">
+
+				<div class="homepage-image">
+				<iframe width="100%" height="380" src="https://www.youtube.com/embed/-Xxr4L3M59M" title="Oculus 2020 - Aftermovie" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+				</div>
+
+				<h1>Igniting Passion, Unleashing Creativity, and Leaving an Impact: The Extravaganza of Oculus 2020</h1>
+				<p>Step into the mesmerizing world of Oculus 2020, the annual techno-cultural festival of Sardar Patel Institute of Technology. As the Vice Chairperson, I had the privilege of orchestrating a lineup of captivating events that celebrated diversity, innovation, and community. Join me on a journey through the exhilarating moments and the impact we created.</p>
+
+				<h2>A Tapestry of Enthralling Events</h2>
+				<p>Oculus 2020 showcased a diverse range of events that captivated the imagination of our college community. From the glitz and glamour of the dazzling fashion show to the harmonious melodies of Sargam, a captivating singing competition, every event was curated to showcase the talents and passions of our students.</p>
+
+				<h2>Unleashing the Dance Revolution</h2>
+				<p>The pulsating dance competition, Aelan-e-jung, set the stage ablaze with mesmerizing moves and breathtaking choreography. Participants pushed their boundaries, leaving the audience spellbound and craving more.</p>
+
+				<h2>The Battle of Wits and Skills</h2>
+				<p>Oculus Coding League challenged aspiring programmers to showcase their coding prowess, while Capture the Flag immersed participants in an adrenaline-fueled cybersecurity adventure. These events tested strategic thinking and problem-solving abilities.
+					And, for the future pioneers of the financial frontier, the virtual stock market provided an immersive experience in trading, allowing participants to test their investment acumen and learn about financial markets.</p>
+
+				<h2>Thrills and Adrenaline Rush</h2>
+				<p>Adventure enthusiasts found their thrill in events like Paintball, where adrenaline-pumping battles took place, and Tech Race, a thrilling scavenger hunt across the vibrant streets of Mumbai. These events fostered teamwork and brought out the competitive spirit in the participants.</p>
+
+				<h2>A Melodic Symphony</h2>
+				<p>Sunburn music fest created an electric atmosphere, where pulsating beats and electrifying performances set the stage on fire. The crowd swayed to the rhythm, creating memories that would last a lifetime.</p>
+
+				<h2>Star-Studded Encounters</h2>
+				<p>Oculus 2020 offered unique opportunities to meet and greet popular stars like <i>Ayushmann Khurrana</i> and <i>Jitendra Kumar</i>. These interactions not only brought excitement but also raised awareness about important social issues, such as LGBTQ+ rights and acceptance, through their movie <i>"Shubh Mangal Zyada Saavdhan"</i>.</p>
+				
+				<img src="/ayushman.jpeg" alt="oculus" className="homepage-image" />
+
+				<h2>An Evening of Expression</h2>
+				<p>The enchanting open-mic night at the amphitheater provided a platform for budding artists to showcase their talents and share their stories. It created a vibrant and inclusive atmosphere where voices were heard and appreciated.</p>
+
+				<h2>Immersive Experiences, Collaboration, and Impact</h2>
+				<p>As the Vice Chairperson, I spearheaded the coordination of over 20 captivating events, attracting a footfall of 3000 enthusiastic participants. Oculus 2020 embraced a spirit of social responsibility, organizing a donation drive and fundraiser campaign in collaboration with the Cancer Patients Aid Association (CPAA). Together, we raised approximately Rs. 18,000 to support those battling cancer.</p>
+					<div class="homepage-image">
+						<iframe width="100%" height="428" src="https://www.youtube.com/embed/JbsFZqm-FPI" title="OCULUS FOR A CAUSE" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+					</div>
+				<p>Recognizing the power of collaboration, Oculus 2020 joined forces with various college committees, fostering an environment where innovation and creativity flourished. By nurturing partnerships, we curated an unforgettable festival that transcended boundaries and united the college community.</p>
+
+				<h2>The Art of Seamless Execution</h2>
+				<p>With a keen eye for detail, I took charge of artist management and ensured the smooth operation of logistical aspects. From curating a captivating lineup to meticulously planning schedules and venue preparations, every aspect of the festival ran seamlessly, providing attendees with a truly immersive experience.</p>
+
+				<h2>Moments to Cherish</h2>
+				<p>Oculus 2020 was a whirlwind of unforgettable moments that ignited passion, unleashed creativity, and left a lasting impact. The festival celebrated diversity, showcased talents, and fostered a sense of community. As the Vice Chairperson, I am grateful for the opportunity to have contributed to the legacy of Sardar Patel Institute of Technology's prestigious festival. The memories created during Oculus 2020 will forever remain etched in our hearts, reminding us of the incredible journey we embarked upon together.</p>
+
+				<img src="/redbull.jpg" alt="call-to-action" className="call-to-action-image"	/>
+				<p class="call-to-action">#OculusSeesAll</p>
+				</article>
+		</React.Fragment>
+		,
+	};
+}
+
+
+function eyecando_article() {
+	return {
+		date: "15 December, 2023",
+		title: "Navigating New Frontiers: EyeCanDo's Pioneering Tech for ALS Patient",
+		description:
+		"Join me on a journey inside EyeCanDo, where cutting-edge tech meets human resilience. This is the story of how we're empowering ALS patients with just their gaze, turning science fiction into reality at Stony Brook University.",
+		style: `
+			.article-content {
+				display: flex;
+				flex-direction: column;
+				align-items: left;
+				max-width: 800px;
+				margin: 0 auto;
+				padding: 20px;
+				background-color: #fafafa;
+				border-radius: 8px;
+				box-shadow: 0px 0px 24px rgba(0, 0, 0, 0.3);
+			}
+
+			.homepage-image {
+				width: 100%;
+				display: flex;
+				flex-direction: row;
+				border-radius: 8px;
+				margin-bottom: 20px;
+				align-items: center;
+			}
+
+			.homepage-image img {
+				width: 45%; 
+				height: auto;
+				padding: 15px;
+			}
+
+			h1 {
+				font-size: 28px;
+				margin-bottom: 20px;
+				text-align: center;
+			}
+
+			h2 {
+				font-size: 20px;
+				margin-top: 10px;
+				margin-bottom: 5px;
+			}
+
+			p {
+				font-size: 18px;
+				line-height: 1.6;
+				margin-bottom: 20px;
+			}
+
+			.call-to-action-image {
+				width: 100%;
+				border-radius: 8px;
+				margin-top: 40px;
+				margin-bottom: 20px;
+			}
+
+			.call-to-action {
+				text-align: center;
+				font-size: 18px;
+				font-weight: bold;
+			}
+		`,
+		keywords: [
+			'Stony Brook University research', 'ALS assistive technology', 'Human Computer Interaction', 'Adaptive technology for disabilities', 'Eye tracking', 'iOS ecosystem', 
+		],
+		body: 
+		<React.Fragment>
+			<article class="article-content">
+
+				<h1>Dive into the story of EyeCanDo, that gives ALS patients control and independence through the power of their gaze. Discover how we're turning this bold vision into a reality, literally!</h1>
+				<p>Today marks a significant milestone in the journey of technological advancements aimed at assisting those with medical challenges. I'm excited to share my experience working on a remarkable project, EyeCanDo, an initiative that promises to transform the lives of individuals diagnosed with Amyotrophic Lateral Sclerosis (ALS). This project is a part of the research conducted at Stony Brook University under the guidance of Prof. Fusheng Wang and Xiaojun Bi.</p>
+
+				<h2>The Vision Behind EyeCanDo</h2>
+				<p>EyeCanDo is not just an application; it's a beacon of hope. It's designed to empower ALS patients, enabling them to interact with digital devices using just their eye movements. This innovation is particularly significant for ALS patients, who often lose muscle control, making traditional interaction with devices challenging, if not impossible.</p>
+
+				<h2>My Role in the Project</h2>
+				<p>As a part of the EyeCanDo team, my role was crucial in enhancing the eye-tracking capabilities of the application. The primary objective was to refine the eye tracker to make it more accurate, responsive, and user-friendly. This was achieved through meticulous calibration and leveraging cutting-edge technologies like OpenCV and ARKit, integral components of the iOS ecosystem.</p>
+
+				<h2>The Technical Journey</h2>
+				<p>The technical aspect of this project was both challenging and exhilarating. </p>
+
+				<div class="homepage-image">
+				<iframe width="100%" height="380" src="https://youtube.com/shorts/6nLuGTIKaSU" title="Oculus 2020 - Aftermovie" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+				</div>
+
+				<h2>The Impact on ALS Patients</h2>
+				<p>The potential impact of EyeCanDo on the lives of ALS patients is profound. By enabling control of iPhones and iPads through eye movements, it offers a new level of independence and communication ability. Imagine being able to send a text, make a call, or even browse the web, all with the blink of an eye. This technology doesn't just offer utility; it brings back a sense of normalcy and control to those who have lost much of their physical capabilities.</p>
+
+				<h2>Looking Ahead</h2>
+				<p>As we continue to refine and develop EyeCanDo, the focus remains on enhancing its accessibility and usability. The journey is ongoing, and the potential for growth is immense. We envision a future where technological barriers are non-existent for those with physical limitations.</p>
+
+				<h2>Final thoughts</h2>
+				<p>Working on EyeCanDo has been a transformative experience. It's a project that merges the realms of technology and humanity, creating solutions that resonate with the needs of those often overlooked. As I reflect on this journey, I am filled with pride and hope for what the future holds, not just for this project, but for the countless lives it aims to touch.</p>
+				
+				<p class="call-to-action">
+					Join the movement! Visit <a href="https://www.eyecando.org">EyeCanDo</a> explore more about the product and share your insights.
+				</p>
+				</article>
+		</React.Fragment>
+		,
+	};
+}
+
+
+function dance_article() {
+	return {
+		date: "31 March, 2020",
+		title: "Igniting Passion, Unleashing Creativity, and Leaving an Impact: The Extravaganza of Oculus 2020",
+		description:
+		"Step into the vibrant world of Oculus 2020, the annual techno-cultural festival of Sardar Patel Institute of Technology. Join me on a journey through the exhilarating moments and the impact we created.",
+		style: `
+			.article-content {
+				display: flex;
+				flex-direction: column;
+				align-items: left;
+				max-width: 800px;
+				margin: 0 auto;
+				padding: 20px;
+				background-color: #fafafa;
+				border-radius: 8px;
+				box-shadow: 0px 0px 24px rgba(0, 0, 0, 0.3);
+			}
+
+			.homepage-image {
+				width: 100%;
+				display: flex;
+				flex-direction: row;
+				border-radius: 8px;
+				margin-bottom: 20px;
+				align-items: center;
+			}
+
+			.homepage-image img {
+				width: 45%; 
+				height: auto;
+				padding: 15px;
+			}
+
+			h1 {
+				font-size: 28px;
+				margin-bottom: 20px;
+				text-align: center;
+			}
+
+			h2 {
+				font-size: 20px;
+				margin-top: 10px;
+				margin-bottom: 5px;
+			}
+
+			p {
+				font-size: 18px;
+				line-height: 1.6;
+				margin-bottom: 20px;
+			}
+
+			.call-to-action-image {
+				width: 100%;
+				border-radius: 8px;
+				margin-top: 40px;
+				margin-bottom: 20px;
+			}
+
+			.call-to-action {
+				text-align: center;
+				font-size: 18px;
+				font-weight: bold;
+			}
+		`,
+		keywords: [
+			'Festival', 'College', 'Event Management', 'Vicechairpersor', 'Organiser', 'Donation', 'Fundraiser'
+		],
+		body: 
+		<React.Fragment>
+			<article class="article-content">
+
+				<div class="homepage-image">
+				<iframe width="100%" height="380" src="https://www.youtube.com/embed/-Xxr4L3M59M" title="Oculus 2020 - Aftermovie" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+				</div>
+
+				<h1>Igniting Passion, Unleashing Creativity, and Leaving an Impact: The Extravaganza of Oculus 2020</h1>
+				<p>Step into the mesmerizing world of Oculus 2020, the annual techno-cultural festival of Sardar Patel Institute of Technology. As the Vice Chairperson, I had the privilege of orchestrating a lineup of captivating events that celebrated diversity, innovation, and community. Join me on a journey through the exhilarating moments and the impact we created.</p>
+
+				<h2>A Tapestry of Enthralling Events</h2>
+				<p>Oculus 2020 showcased a diverse range of events that captivated the imagination of our college community. From the glitz and glamour of the dazzling fashion show to the harmonious melodies of Sargam, a captivating singing competition, every event was curated to showcase the talents and passions of our students.</p>
+
+				<h2>Unleashing the Dance Revolution</h2>
+				<p>The pulsating dance competition, Aelan-e-jung, set the stage ablaze with mesmerizing moves and breathtaking choreography. Participants pushed their boundaries, leaving the audience spellbound and craving more.</p>
+
+				<h2>The Battle of Wits and Skills</h2>
+				<p>Oculus Coding League challenged aspiring programmers to showcase their coding prowess, while Capture the Flag immersed participants in an adrenaline-fueled cybersecurity adventure. These events tested strategic thinking and problem-solving abilities.
+					And, for the future pioneers of the financial frontier, the virtual stock market provided an immersive experience in trading, allowing participants to test their investment acumen and learn about financial markets.</p>
+
+				<h2>Thrills and Adrenaline Rush</h2>
+				<p>Adventure enthusiasts found their thrill in events like Paintball, where adrenaline-pumping battles took place, and Tech Race, a thrilling scavenger hunt across the vibrant streets of Mumbai. These events fostered teamwork and brought out the competitive spirit in the participants.</p>
+
+				<h2>A Melodic Symphony</h2>
+				<p>Sunburn music fest created an electric atmosphere, where pulsating beats and electrifying performances set the stage on fire. The crowd swayed to the rhythm, creating memories that would last a lifetime.</p>
+
+				<h2>Star-Studded Encounters</h2>
+				<p>Oculus 2020 offered unique opportunities to meet and greet popular stars like <i>Ayushmann Khurrana</i> and <i>Jitendra Kumar</i>. These interactions not only brought excitement but also raised awareness about important social issues, such as LGBTQ+ rights and acceptance, through their movie <i>"Shubh Mangal Zyada Saavdhan"</i>.</p>
+				
+				<img src="/ayushman.jpeg" alt="oculus" className="homepage-image" />
+
+				<h2>An Evening of Expression</h2>
+				<p>The enchanting open-mic night at the amphitheater provided a platform for budding artists to showcase their talents and share their stories. It created a vibrant and inclusive atmosphere where voices were heard and appreciated.</p>
+
+				<h2>Immersive Experiences, Collaboration, and Impact</h2>
+				<p>As the Vice Chairperson, I spearheaded the coordination of over 20 captivating events, attracting a footfall of 3000 enthusiastic participants. Oculus 2020 embraced a spirit of social responsibility, organizing a donation drive and fundraiser campaign in collaboration with the Cancer Patients Aid Association (CPAA). Together, we raised approximately Rs. 18,000 to support those battling cancer.</p>
+					<div class="homepage-image">
+						<iframe width="100%" height="428" src="https://www.youtube.com/embed/JbsFZqm-FPI" title="OCULUS FOR A CAUSE" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+					</div>
+				<p>Recognizing the power of collaboration, Oculus 2020 joined forces with various college committees, fostering an environment where innovation and creativity flourished. By nurturing partnerships, we curated an unforgettable festival that transcended boundaries and united the college community.</p>
+
+				<h2>The Art of Seamless Execution</h2>
+				<p>With a keen eye for detail, I took charge of artist management and ensured the smooth operation of logistical aspects. From curating a captivating lineup to meticulously planning schedules and venue preparations, every aspect of the festival ran seamlessly, providing attendees with a truly immersive experience.</p>
+
+				<h2>Moments to Cherish</h2>
+				<p>Oculus 2020 was a whirlwind of unforgettable moments that ignited passion, unleashed creativity, and left a lasting impact. The festival celebrated diversity, showcased talents, and fostered a sense of community. As the Vice Chairperson, I am grateful for the opportunity to have contributed to the legacy of Sardar Patel Institute of Technology's prestigious festival. The memories created during Oculus 2020 will forever remain etched in our hearts, reminding us of the incredible journey we embarked upon together.</p>
+
+				<img src="/redbull.jpg" alt="call-to-action" className="call-to-action-image"	/>
+				<p class="call-to-action">#OculusSeesAll</p>
+				</article>
+		</React.Fragment>
+		,
+	};
+}
+
+
+function designer_article() {
+	return {
+		date: "31 March, 2020",
+		title: "Igniting Passion, Unleashing Creativity, and Leaving an Impact: The Extravaganza of Oculus 2020",
+		description:
+		"Step into the vibrant world of Oculus 2020, the annual techno-cultural festival of Sardar Patel Institute of Technology. Join me on a journey through the exhilarating moments and the impact we created.",
+		style: `
+			.article-content {
+				display: flex;
+				flex-direction: column;
+				align-items: left;
+				max-width: 800px;
+				margin: 0 auto;
+				padding: 20px;
+				background-color: #fafafa;
+				border-radius: 8px;
+				box-shadow: 0px 0px 24px rgba(0, 0, 0, 0.3);
+			}
+
+			.homepage-image {
+				width: 100%;
+				display: flex;
+				flex-direction: row;
+				border-radius: 8px;
+				margin-bottom: 20px;
+				align-items: center;
+			}
+
+			.homepage-image img {
+				width: 45%; 
+				height: auto;
+				padding: 15px;
+			}
+
+			h1 {
+				font-size: 28px;
+				margin-bottom: 20px;
+				text-align: center;
+			}
+
+			h2 {
+				font-size: 20px;
+				margin-top: 10px;
+				margin-bottom: 5px;
+			}
+
+			p {
+				font-size: 18px;
+				line-height: 1.6;
+				margin-bottom: 20px;
+			}
+
+			.call-to-action-image {
+				width: 100%;
+				border-radius: 8px;
+				margin-top: 40px;
+				margin-bottom: 20px;
+			}
+
+			.call-to-action {
+				text-align: center;
+				font-size: 18px;
+				font-weight: bold;
+			}
+		`,
+		keywords: [
+			'Festival', 'College', 'Event Management', 'Vicechairpersor', 'Organiser', 'Donation', 'Fundraiser'
+		],
+		body: 
+		<React.Fragment>
+			<article class="article-content">
+
+				<div class="homepage-image">
+				<iframe width="100%" height="380" src="https://www.youtube.com/embed/-Xxr4L3M59M" title="Oculus 2020 - Aftermovie" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+				</div>
+
+				<h1>Igniting Passion, Unleashing Creativity, and Leaving an Impact: The Extravaganza of Oculus 2020</h1>
+				<p>Step into the mesmerizing world of Oculus 2020, the annual techno-cultural festival of Sardar Patel Institute of Technology. As the Vice Chairperson, I had the privilege of orchestrating a lineup of captivating events that celebrated diversity, innovation, and community. Join me on a journey through the exhilarating moments and the impact we created.</p>
+
+				<h2>A Tapestry of Enthralling Events</h2>
+				<p>Oculus 2020 showcased a diverse range of events that captivated the imagination of our college community. From the glitz and glamour of the dazzling fashion show to the harmonious melodies of Sargam, a captivating singing competition, every event was curated to showcase the talents and passions of our students.</p>
+
+				<h2>Unleashing the Dance Revolution</h2>
+				<p>The pulsating dance competition, Aelan-e-jung, set the stage ablaze with mesmerizing moves and breathtaking choreography. Participants pushed their boundaries, leaving the audience spellbound and craving more.</p>
+
+				<h2>The Battle of Wits and Skills</h2>
+				<p>Oculus Coding League challenged aspiring programmers to showcase their coding prowess, while Capture the Flag immersed participants in an adrenaline-fueled cybersecurity adventure. These events tested strategic thinking and problem-solving abilities.
+					And, for the future pioneers of the financial frontier, the virtual stock market provided an immersive experience in trading, allowing participants to test their investment acumen and learn about financial markets.</p>
+
+				<h2>Thrills and Adrenaline Rush</h2>
+				<p>Adventure enthusiasts found their thrill in events like Paintball, where adrenaline-pumping battles took place, and Tech Race, a thrilling scavenger hunt across the vibrant streets of Mumbai. These events fostered teamwork and brought out the competitive spirit in the participants.</p>
+
+				<h2>A Melodic Symphony</h2>
+				<p>Sunburn music fest created an electric atmosphere, where pulsating beats and electrifying performances set the stage on fire. The crowd swayed to the rhythm, creating memories that would last a lifetime.</p>
+
+				<h2>Star-Studded Encounters</h2>
+				<p>Oculus 2020 offered unique opportunities to meet and greet popular stars like <i>Ayushmann Khurrana</i> and <i>Jitendra Kumar</i>. These interactions not only brought excitement but also raised awareness about important social issues, such as LGBTQ+ rights and acceptance, through their movie <i>"Shubh Mangal Zyada Saavdhan"</i>.</p>
+				
+				<img src="/ayushman.jpeg" alt="oculus" className="homepage-image" />
+
+				<h2>An Evening of Expression</h2>
+				<p>The enchanting open-mic night at the amphitheater provided a platform for budding artists to showcase their talents and share their stories. It created a vibrant and inclusive atmosphere where voices were heard and appreciated.</p>
+
+				<h2>Immersive Experiences, Collaboration, and Impact</h2>
+				<p>As the Vice Chairperson, I spearheaded the coordination of over 20 captivating events, attracting a footfall of 3000 enthusiastic participants. Oculus 2020 embraced a spirit of social responsibility, organizing a donation drive and fundraiser campaign in collaboration with the Cancer Patients Aid Association (CPAA). Together, we raised approximately Rs. 18,000 to support those battling cancer.</p>
+					<div class="homepage-image">
+						<iframe width="100%" height="428" src="https://www.youtube.com/embed/JbsFZqm-FPI" title="OCULUS FOR A CAUSE" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+					</div>
+				<p>Recognizing the power of collaboration, Oculus 2020 joined forces with various college committees, fostering an environment where innovation and creativity flourished. By nurturing partnerships, we curated an unforgettable festival that transcended boundaries and united the college community.</p>
+
+				<h2>The Art of Seamless Execution</h2>
+				<p>With a keen eye for detail, I took charge of artist management and ensured the smooth operation of logistical aspects. From curating a captivating lineup to meticulously planning schedules and venue preparations, every aspect of the festival ran seamlessly, providing attendees with a truly immersive experience.</p>
+
+				<h2>Moments to Cherish</h2>
+				<p>Oculus 2020 was a whirlwind of unforgettable moments that ignited passion, unleashed creativity, and left a lasting impact. The festival celebrated diversity, showcased talents, and fostered a sense of community. As the Vice Chairperson, I am grateful for the opportunity to have contributed to the legacy of Sardar Patel Institute of Technology's prestigious festival. The memories created during Oculus 2020 will forever remain etched in our hearts, reminding us of the incredible journey we embarked upon together.</p>
+
+				<img src="/redbull.jpg" alt="call-to-action" className="call-to-action-image"	/>
+				<p class="call-to-action">#OculusSeesAll</p>
+				</article>
+		</React.Fragment>
+		,
+	};
+}
+
+
+function masters_article() {
+	return {
+		date: "31 March, 2020",
+		title: "Igniting Passion, Unleashing Creativity, and Leaving an Impact: The Extravaganza of Oculus 2020",
+		description:
+		"Step into the vibrant world of Oculus 2020, the annual techno-cultural festival of Sardar Patel Institute of Technology. Join me on a journey through the exhilarating moments and the impact we created.",
+		style: `
+			.article-content {
+				display: flex;
+				flex-direction: column;
+				align-items: left;
+				max-width: 800px;
+				margin: 0 auto;
+				padding: 20px;
+				background-color: #fafafa;
+				border-radius: 8px;
+				box-shadow: 0px 0px 24px rgba(0, 0, 0, 0.3);
+			}
+
+			.homepage-image {
+				width: 100%;
+				display: flex;
+				flex-direction: row;
+				border-radius: 8px;
+				margin-bottom: 20px;
+				align-items: center;
+			}
+
+			.homepage-image img {
+				width: 45%; 
+				height: auto;
+				padding: 15px;
+			}
+
+			h1 {
+				font-size: 28px;
+				margin-bottom: 20px;
+				text-align: center;
+			}
+
+			h2 {
+				font-size: 20px;
+				margin-top: 10px;
+				margin-bottom: 5px;
+			}
+
+			p {
+				font-size: 18px;
+				line-height: 1.6;
+				margin-bottom: 20px;
+			}
+
+			.call-to-action-image {
+				width: 100%;
+				border-radius: 8px;
+				margin-top: 40px;
+				margin-bottom: 20px;
+			}
+
+			.call-to-action {
+				text-align: center;
+				font-size: 18px;
+				font-weight: bold;
+			}
+		`,
+		keywords: [
+			'Festival', 'College', 'Event Management', 'Vicechairpersor', 'Organiser', 'Donation', 'Fundraiser'
+		],
+		body: 
+		<React.Fragment>
+			<article class="article-content">
+
+				<div class="homepage-image">
+				<iframe width="100%" height="380" src="https://www.youtube.com/embed/-Xxr4L3M59M" title="Oculus 2020 - Aftermovie" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+				</div>
+
+				<h1>Igniting Passion, Unleashing Creativity, and Leaving an Impact: The Extravaganza of Oculus 2020</h1>
+				<p>Step into the mesmerizing world of Oculus 2020, the annual techno-cultural festival of Sardar Patel Institute of Technology. As the Vice Chairperson, I had the privilege of orchestrating a lineup of captivating events that celebrated diversity, innovation, and community. Join me on a journey through the exhilarating moments and the impact we created.</p>
+
+				<h2>A Tapestry of Enthralling Events</h2>
+				<p>Oculus 2020 showcased a diverse range of events that captivated the imagination of our college community. From the glitz and glamour of the dazzling fashion show to the harmonious melodies of Sargam, a captivating singing competition, every event was curated to showcase the talents and passions of our students.</p>
+
+				<h2>Unleashing the Dance Revolution</h2>
+				<p>The pulsating dance competition, Aelan-e-jung, set the stage ablaze with mesmerizing moves and breathtaking choreography. Participants pushed their boundaries, leaving the audience spellbound and craving more.</p>
+
+				<h2>The Battle of Wits and Skills</h2>
+				<p>Oculus Coding League challenged aspiring programmers to showcase their coding prowess, while Capture the Flag immersed participants in an adrenaline-fueled cybersecurity adventure. These events tested strategic thinking and problem-solving abilities.
+					And, for the future pioneers of the financial frontier, the virtual stock market provided an immersive experience in trading, allowing participants to test their investment acumen and learn about financial markets.</p>
+
+				<h2>Thrills and Adrenaline Rush</h2>
+				<p>Adventure enthusiasts found their thrill in events like Paintball, where adrenaline-pumping battles took place, and Tech Race, a thrilling scavenger hunt across the vibrant streets of Mumbai. These events fostered teamwork and brought out the competitive spirit in the participants.</p>
+
+				<h2>A Melodic Symphony</h2>
+				<p>Sunburn music fest created an electric atmosphere, where pulsating beats and electrifying performances set the stage on fire. The crowd swayed to the rhythm, creating memories that would last a lifetime.</p>
+
+				<h2>Star-Studded Encounters</h2>
+				<p>Oculus 2020 offered unique opportunities to meet and greet popular stars like <i>Ayushmann Khurrana</i> and <i>Jitendra Kumar</i>. These interactions not only brought excitement but also raised awareness about important social issues, such as LGBTQ+ rights and acceptance, through their movie <i>"Shubh Mangal Zyada Saavdhan"</i>.</p>
+				
+				<img src="/ayushman.jpeg" alt="oculus" className="homepage-image" />
+
+				<h2>An Evening of Expression</h2>
+				<p>The enchanting open-mic night at the amphitheater provided a platform for budding artists to showcase their talents and share their stories. It created a vibrant and inclusive atmosphere where voices were heard and appreciated.</p>
+
+				<h2>Immersive Experiences, Collaboration, and Impact</h2>
+				<p>As the Vice Chairperson, I spearheaded the coordination of over 20 captivating events, attracting a footfall of 3000 enthusiastic participants. Oculus 2020 embraced a spirit of social responsibility, organizing a donation drive and fundraiser campaign in collaboration with the Cancer Patients Aid Association (CPAA). Together, we raised approximately Rs. 18,000 to support those battling cancer.</p>
+					<div class="homepage-image">
+						<iframe width="100%" height="428" src="https://www.youtube.com/embed/JbsFZqm-FPI" title="OCULUS FOR A CAUSE" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+					</div>
+				<p>Recognizing the power of collaboration, Oculus 2020 joined forces with various college committees, fostering an environment where innovation and creativity flourished. By nurturing partnerships, we curated an unforgettable festival that transcended boundaries and united the college community.</p>
+
+				<h2>The Art of Seamless Execution</h2>
+				<p>With a keen eye for detail, I took charge of artist management and ensured the smooth operation of logistical aspects. From curating a captivating lineup to meticulously planning schedules and venue preparations, every aspect of the festival ran seamlessly, providing attendees with a truly immersive experience.</p>
+
+				<h2>Moments to Cherish</h2>
+				<p>Oculus 2020 was a whirlwind of unforgettable moments that ignited passion, unleashed creativity, and left a lasting impact. The festival celebrated diversity, showcased talents, and fostered a sense of community. As the Vice Chairperson, I am grateful for the opportunity to have contributed to the legacy of Sardar Patel Institute of Technology's prestigious festival. The memories created during Oculus 2020 will forever remain etched in our hearts, reminding us of the incredible journey we embarked upon together.</p>
+
+				<img src="/redbull.jpg" alt="call-to-action" className="call-to-action-image"	/>
+				<p class="call-to-action">#OculusSeesAll</p>
+				</article>
+		</React.Fragment>
+		,
+	};
+}
+
+
+function research_article() {
+	return {
+		date: "31 March, 2020",
+		title: "Igniting Passion, Unleashing Creativity, and Leaving an Impact: The Extravaganza of Oculus 2020",
+		description:
+		"Step into the vibrant world of Oculus 2020, the annual techno-cultural festival of Sardar Patel Institute of Technology. Join me on a journey through the exhilarating moments and the impact we created.",
+		style: `
+			.article-content {
+				display: flex;
+				flex-direction: column;
+				align-items: left;
+				max-width: 800px;
+				margin: 0 auto;
+				padding: 20px;
+				background-color: #fafafa;
+				border-radius: 8px;
+				box-shadow: 0px 0px 24px rgba(0, 0, 0, 0.3);
+			}
+
+			.homepage-image {
+				width: 100%;
+				display: flex;
+				flex-direction: row;
+				border-radius: 8px;
+				margin-bottom: 20px;
+				align-items: center;
+			}
+
+			.homepage-image img {
+				width: 45%; 
+				height: auto;
+				padding: 15px;
+			}
+
+			h1 {
+				font-size: 28px;
+				margin-bottom: 20px;
+				text-align: center;
+			}
+
+			h2 {
+				font-size: 20px;
+				margin-top: 10px;
+				margin-bottom: 5px;
+			}
+
+			p {
+				font-size: 18px;
+				line-height: 1.6;
+				margin-bottom: 20px;
+			}
+
+			.call-to-action-image {
+				width: 100%;
+				border-radius: 8px;
+				margin-top: 40px;
+				margin-bottom: 20px;
+			}
+
+			.call-to-action {
+				text-align: center;
+				font-size: 18px;
+				font-weight: bold;
+			}
+		`,
+		keywords: [
 			'Festival', 'College', 'Event Management', 'Vicechairpersor', 'Organiser', 'Donation', 'Fundraiser'
 		],
 		body: 
@@ -336,6 +943,7 @@ function oculus_article() {
 
 
 
-const myArticles = [bnp_article, spit_article, oculus_article];
+
+const myArticles = [eyecando_article, bnp_article, spit_article, oculus_article];
 
 export default myArticles;
