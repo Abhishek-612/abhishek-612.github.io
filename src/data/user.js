@@ -66,7 +66,7 @@ const INFO = {
 			title: "Pothole detection using accelerometer and computer vision with automated complaint redressal",
 			publishDate: "13 May 2021",
 			conference: "2021 3rd International Conference on Signal Processing and Communication (ICPSC)",
-			cites: "1",
+			cites: "4",
 			description:
 				"This paper addresses the critical issue of road safety by presenting a solution that leverages mobile sensors and image-based techniques to detect potholes in real-time using Machine Learning. By involving civilians in the detection process, authorities can be promptly notified through a web-based portal for necessary action. The solution also includes complaint management, location tagging, prioritization, and provides a forecast of potential pothole-related issues based on continuously updated time series data of various locations.",
 			ongoing: false,
@@ -78,7 +78,7 @@ const INFO = {
 			title: "Gauging attention of students in an e-learning environment",
 			publishDate: "3 December 2020",
 			conference: "2020 IEEE 4th Conference on Information & Communication Technology (CICT)",
-			cites: "25",
+			cites: "28",
 			description:
 				"This paper tackles the issue of monitoring student attentiveness in virtual classrooms, considering the challenges posed by the shift to online education during the COVID-19 pandemic. The proposed solution offers a three-fold approach, including a posture-based attentiveness detection model, drowsiness measurement, and emotion analysis. By utilizing these methods, the aim is to enhance the effectiveness of online pedagogy and improve student engagement and understanding in virtual learning environments.",
 			ongoing: false,
@@ -102,7 +102,7 @@ const INFO = {
 			title: "MMAP: A Multi-Modal Automated Online Proctor",
 			publishDate: "30 September 2021",
 			conference: "2021 Machine Learning and Big Data Analytics (ICMLBDA)",
-			cites: "2",
+			cites: "3",
 			description:
 				"This paper addresses the challenge of monitoring students during online examinations in the context of the growing popularity of online education. It proposes a comprehensive five-fold proctoring mechanism based on computer vision techniques, including authentication, head movement, eye motion tracking, speech detection, and object detection. The solution achieves an impressive overall accuracy of 91%, offering a robust approach to mitigate malpractices in online tests.",
 			ongoing: false,

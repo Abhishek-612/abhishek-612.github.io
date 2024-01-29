@@ -417,10 +417,17 @@ function eyecando_article() {
 				<p>As a part of the EyeCanDo team, my role was crucial in enhancing the eye-tracking capabilities of the application. The primary objective was to refine the eye tracker to make it more accurate, responsive, and user-friendly. This was achieved through meticulous calibration and leveraging cutting-edge technologies like OpenCV and ARKit, integral components of the iOS ecosystem.</p>
 
 				<h2>The Technical Journey</h2>
-				<p>The technical aspect of this project was both challenging and exhilarating. </p>
+				<p>The technical aspect of this project was both challenging and exhilarating. Using the TrueDepth cameras from Apple, the project leveraged Augmented Reality and hit-testing, and further calibrating the screen points using homography. Furthermore, a dynamic scaling method which uses gaze angle and field of view for saccade motion of the user's eyes. One of the challenging aspects of the project was the cross-framework design. Apart from Swift (which was used to build the iOS application), I also used C++ for the OpenCV library and Objective-C as the bridge between the two languages. Furthermore, I also built an iOS platform compatible OpenCV library.</p>
 
 				<div class="homepage-image">
-				<iframe width="100%" height="380" src="https://youtube.com/embed/6nLuGTIKaSU" title="Oculus 2020 - Aftermovie" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+				<iframe width="100%" height="380" src="https://youtube.com/embed/L8ugwFfFbfE" title="EyeCanDo Demo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+				</div>
+
+				<p>Find the details of this project on this <a href="https://docs.google.com/presentation/d/1zit-ZBc7Hnoeo4C1PlOd_HnD6Ojk9mly"></a>link.</p>
+				<p>What's more is that this project is available on both iPhones and iPads!</p>
+
+				<div class="homepage-image">
+				<iframe width="100%" height="380" src="https://youtube.com/embed/0pTq7865JGI" title="EyeCanDo iOS" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 				</div>
 
 				<h2>The Impact on ALS Patients</h2>
