@@ -420,7 +420,7 @@ function eyecando_article() {
 				<p>The technical aspect of this project was both challenging and exhilarating. </p>
 
 				<div class="homepage-image">
-				<iframe width="100%" height="380" src="https://drive.google.com/file/d/1htrpPc0CteslDHE-DUwr13-tOMiBUI58/view?usp=sharing" title="Oculus 2020 - Aftermovie" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+				<iframe width="100%" height="380" src="https://youtube.com/shorts/6nLuGTIKaSU?feature=share" title="Oculus 2020 - Aftermovie" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 				</div>
 
 				<h2>The Impact on ALS Patients</h2>
@@ -433,7 +433,7 @@ function eyecando_article() {
 				<p>Working on EyeCanDo has been a transformative experience. It's a project that merges the realms of technology and humanity, creating solutions that resonate with the needs of those often overlooked. As I reflect on this journey, I am filled with pride and hope for what the future holds, not just for this project, but for the countless lives it aims to touch.</p>
 				
 				<p class="call-to-action">
-					Join the movement! Visit <a href="https://www.eyecando.org">EyeCanDo</a> explore more about the product and share your insights.
+					Visit <a href="https://www.eyecando.org">EyeCanDo</a>, explore more about the product and share your insights!
 				</p>
 				</article>
 		</React.Fragment>
