@@ -60,7 +60,8 @@ const About = () => {
 											style={{
 											paddingTop: '10px' }}>
 										<a
-											href={INFO.resume.sde}
+											// href={INFO.resume.sde}
+											href="https://github.com/Abhishek-612/abhishek-612.github.io/raw/main/pdf/Abhishek%20Revadekar%20SDE%20Resume.pdf"
 											target="_blank"
 											rel="noreferrer"
 											style={{textDecoration: 'none', 
@@ -74,7 +75,8 @@ const About = () => {
 										style={{
 										paddingTop: '20px' }}>
 									<a
-										href={INFO.resume.ds}
+										// href={INFO.resume.ds}
+										href="https://github.com/Abhishek-612/abhishek-612.github.io/raw/main/pdf/Abhishek%20Revadekar%20DS%20Resume.pdf"
 										target="_blank"
 										rel="noreferrer"
 										style={{textDecoration: 'none', 

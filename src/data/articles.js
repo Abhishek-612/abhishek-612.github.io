@@ -423,7 +423,7 @@ function eyecando_article() {
 				<iframe width="100%" height="380" src="https://youtube.com/embed/L8ugwFfFbfE" title="EyeCanDo Demo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 				</div>
 
-				<p>Find the details of this project on this <a href="https://docs.google.com/presentation/d/1zit-ZBc7Hnoeo4C1PlOd_HnD6Ojk9mly"></a>link.</p>
+				<p>Find the details of this project on this <a href="https://docs.google.com/presentation/d/1zit-ZBc7Hnoeo4C1PlOd_HnD6Ojk9mly">link</a>.</p>
 				<p>What's more is that this project is available on both iPhones and iPads!</p>
 
 				<div class="homepage-image">
