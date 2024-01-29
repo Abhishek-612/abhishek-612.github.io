@@ -420,7 +420,7 @@ function eyecando_article() {
 				<p>The technical aspect of this project was both challenging and exhilarating. </p>
 
 				<div class="homepage-image">
-				<iframe width="100%" height="380" src="https://youtube.com/shorts/6nLuGTIKaSU?feature=share" title="Oculus 2020 - Aftermovie" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+				<iframe width="100%" height="380" src="https://youtube.com/embed/6nLuGTIKaSU" title="Oculus 2020 - Aftermovie" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 				</div>
 
 				<h2>The Impact on ALS Patients</h2>
