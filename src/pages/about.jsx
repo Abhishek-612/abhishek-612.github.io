@@ -53,40 +53,99 @@ const About = () => {
 										Looking to Collaborate?
 									</div>
 									<div className="subtitle about-subtitle">
-										Find my resume below for more information:
+										<p>Find my resume below for more information.</p>
 									</div>
 									<ul>
 										<li 
 											style={{
 											paddingTop: '10px' }}>
 										<a
-											// href={INFO.resume.sde}
-											href="https://github.com/Abhishek-612/abhishek-612.github.io/raw/main/pdf/Abhishek%20Revadekar%20SDE%20Resume.pdf"
+											href="https://github.com/Abhishek-612/abhishek-612.github.io/raw/main/pdf/Abhishek_Revadekar_sde_resume.pdf"
 											target="_blank"
 											rel="noreferrer"
 											style={{textDecoration: 'none', 
 											color: 'var(--secondary-color)',
 											fontWeight: 'bold', }}
 										>
-											Software Development Resume
+											Software Development (General) Resume
 										</a>
 										</li>
-									<li 
-										style={{
-										paddingTop: '20px' }}>
-									<a
-										// href={INFO.resume.ds}
-										href="https://github.com/Abhishek-612/abhishek-612.github.io/raw/main/pdf/Abhishek%20Revadekar%20DS%20Resume.pdf"
-										target="_blank"
-										rel="noreferrer"
-										style={{textDecoration: 'none', 
-										color: 'var(--secondary-color)',
-										fontWeight: 'bold', }}
-									>
-										Data Science / Machine Learning Resume
-									</a>
-									</li>
+										<li 
+											style={{
+											paddingTop: '10px' }}>
+										<a
+											href="https://github.com/Abhishek-612/abhishek-612.github.io/raw/main/pdf/Abhishek_Revadekar_fullstack_resume.pdf"
+											target="_blank"
+											rel="noreferrer"
+											style={{textDecoration: 'none', 
+											color: 'var(--secondary-color)',
+											fontWeight: 'bold', }}
+										>
+											Full Stack Development Resume
+										</a>
+										</li>
+										<li 
+											style={{
+											paddingTop: '10px' }}>
+										<a
+											href="https://github.com/Abhishek-612/abhishek-612.github.io/raw/main/pdf/Abhishek_Revadekar_ml_resume.pdf"
+											target="_blank"
+											rel="noreferrer"
+											style={{textDecoration: 'none', 
+											color: 'var(--secondary-color)',
+											fontWeight: 'bold', }}
+										>
+											Data Science & Machine Learning Resume
+										</a>
+										</li>
+										<li 
+											style={{
+											paddingTop: '10px' }}>
+										<a
+											href="https://github.com/Abhishek-612/abhishek-612.github.io/raw/main/pdf/Abhishek_Revadekar_ai_resume.pdf"
+											target="_blank"
+											rel="noreferrer"
+											style={{textDecoration: 'none', 
+											color: 'var(--secondary-color)',
+											fontWeight: 'bold', }}
+										>
+											AI Applications Resume
+										</a>
+										</li>
+										<li 
+											style={{
+											paddingTop: '10px' }}>
+										<a
+											href="https://github.com/Abhishek-612/abhishek-612.github.io/raw/main/pdf/Abhishek_Revadekar_systems_resume.pdf"
+											target="_blank"
+											rel="noreferrer"
+											style={{textDecoration: 'none', 
+											color: 'var(--secondary-color)',
+											fontWeight: 'bold', }}
+										>
+											Systems Resume
+										</a>
+										</li>
+										<li 
+											style={{
+											paddingTop: '10px' }}>
+										<a
+											href="https://github.com/Abhishek-612/abhishek-612.github.io/raw/main/pdf/Abhishek_Revadekar_ios_resume.pdf"
+											target="_blank"
+											rel="noreferrer"
+											style={{textDecoration: 'none', 
+											color: 'var(--secondary-color)',
+											fontWeight: 'bold', }}
+										>
+											Mobile Development - iOS Resume
+										</a>
+										</li>
 									</ul>
+									<div className="subtitle about-subtitle">
+									<p><em>
+										Note: My journey in software development is still unfolding, and my curiosity is ever-expanding. The various resume iterations you'll find here are purposefully tailored to showcase the breadth of my experience within specific domains. Each version is a reflection of my versatile skill set, adapted to meet the unique demands of the industry's diverse sectors.
+									</em></p>
+									</div>
 								</div>
 							</div>
 

@@ -43,7 +43,7 @@ const INFO = {
 			conference: "",
 			cites: "",
 			description:
-				"This is an ongoing research to identify TEE security vulnerabilities and testing techniques in ARMv8 architectures, led by Professor Dongyoon Lee at Stony Brook University. More details soon...",
+				"This is an ongoing research to identify TEE security vulnerabilities and testing techniques in ARMv8 architectures, led by Professor Dongyoon Lee at Stony Brook University. Currently, I have developed an AFL-based fuzzing tool to assess code coverage in the OPTEE kernel. More details soon...",
 			ongoing: true,
 			linkText: "",
 			link: "",
@@ -54,7 +54,7 @@ const INFO = {
 			title: "Bidirectional sign language translation",
 			publishDate: "25 June 2021",
 			conference: "2021 International Conference on Communication information and Computing Technology (ICCICT)",
-			cites: "9",
+			cites: "14",
 			description:
 				"This research work aims to address communication challenges faced by individuals with hearing and speech impairment. It proposes a portable smartphone application that offers bidirectional translation between sign language and speech, enabling real-time communication without the need for additional hardware. The system leverages machine learning techniques, including pre-trained models and Unity3D, to provide speech output as audio and text, as well as sign language output in the form of a 3D animated video sequence, enhancing social engagement and inclusivity.",
 			ongoing: false,
@@ -78,7 +78,7 @@ const INFO = {
 			title: "Gauging attention of students in an e-learning environment",
 			publishDate: "3 December 2020",
 			conference: "2020 IEEE 4th Conference on Information & Communication Technology (CICT)",
-			cites: "28",
+			cites: "29",
 			description:
 				"This paper tackles the issue of monitoring student attentiveness in virtual classrooms, considering the challenges posed by the shift to online education during the COVID-19 pandemic. The proposed solution offers a three-fold approach, including a posture-based attentiveness detection model, drowsiness measurement, and emotion analysis. By utilizing these methods, the aim is to enhance the effectiveness of online pedagogy and improve student engagement and understanding in virtual learning environments.",
 			ongoing: false,
@@ -130,7 +130,7 @@ const INFO = {
 			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/swift/swift.png",
 			linkText: "View Project",
 			link: "http://eyecando.org/",
-			ongoing: true,
+			ongoing: false,
 		},
 
 		{
@@ -160,6 +160,16 @@ const INFO = {
 			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/python/python.png",
 			linkText: "View Project",
 			link: "https://github.com/Abhishek-612/CSE538-NLP-Neurologic-Decoding",
+			ongoing: false,
+		},
+		
+		{
+			title: "ScribbleNotes",
+			description:
+				"Don't like typing? No worries, why not write on your phone? You don't even need a stylus, just start scribbling!",
+			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/swift/swift.png",
+			linkText: "View Project",
+			link: "",
 			ongoing: false,
 		},
 
