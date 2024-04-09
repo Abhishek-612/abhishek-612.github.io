@@ -53,7 +53,7 @@ const About = () => {
 										Looking to Collaborate?
 									</div>
 									<div className="subtitle about-subtitle">
-										<p>Find my resume below for more information.</p>
+										<p>Check out my resume for a better view of my skillset:</p>
 									</div>
 									<ul>
 										<li 

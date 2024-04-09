@@ -148,8 +148,21 @@ const Homepage = () => {
               </a>
             </div>
 
+            <div className="homepage-works">
+                <Works />
+              </div>
+
+            <br></br><br></br>
             <div className="homepage-projects">
+              <div className="homepage-subsubtitle">
+                Projects
+              </div>
+
               <AllProjects />
+            </div>
+
+            <div className="homepage-subsubtitle">
+              Articles
             </div>
 
             <div className="homepage-after-title">
@@ -170,9 +183,6 @@ const Homepage = () => {
                 ))}
               </div>
 
-              <div className="homepage-works">
-                <Works />
-              </div>
             </div>
 
             <div className="page-footer">
