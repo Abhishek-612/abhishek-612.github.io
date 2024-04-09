@@ -15,6 +15,34 @@ const Works = () => {
 					<div className="works-body">
 						<div className="work">
 							<img
+								src="./sbu.jpeg"
+								alt="Stony Brook University"
+								className="work-image"
+							/>
+							<div className="work-title">Stony Brook University</div>
+								<div className="work-details">
+									<div className="work-subtitle">
+										Research Assistant - Operating Systems
+									</div>
+									<div className="work-duration">May 2023 - Present</div>
+								</div>
+						</div>
+						<div className="work">
+							<img
+								src="./eyecandologo.png"
+								alt="EyeCanDo - Stony Brook University"
+								className="work-image"
+							/>
+							<div className="work-title">EyeCanDo - Stony Brook University</div>
+								<div className="work-details">
+									<div className="work-subtitle">
+										Research Assistant - Eye tracking (HCI)
+									</div>
+									<div className="work-duration">Jan. 2023 - Dec. 2023</div>
+								</div>
+						</div>
+						<div className="work">
+							<img
 								src="./BNP-Paribas-SA.png"
 								alt="BNP Paribas"
 								className="work-image"
