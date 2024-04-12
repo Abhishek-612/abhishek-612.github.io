@@ -7,7 +7,7 @@ import reportWebVitals from "./reportWebVitals";
 import ReactGA from 'react-ga'; // Import react-ga
 
 // Initialize Google Analytics
-ReactGA.initialize('YOUR_GA_TRACKING_ID');
+ReactGA.initialize('G-45Z6STWVYB');
 
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
