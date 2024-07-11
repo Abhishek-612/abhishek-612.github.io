@@ -1,12 +1,8 @@
-import React, { useState, useEffect, useContext } from "react";
+import React, { useState, useEffect } from "react";
 import { Helmet } from "react-helmet";
-
 import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import {
-  faGithub,
-  faInstagram,
-} from "@fortawesome/free-brands-svg-icons";
+import { faGithub, faInstagram } from "@fortawesome/free-brands-svg-icons";
 
 import Logo from "../components/common/logo";
 import Footer from "../components/common/footer";
@@ -14,7 +10,6 @@ import NavBar from "../components/common/navBar";
 import Article from "../components/homepage/article";
 import Works from "../components/homepage/works";
 import AllProjects from "../components/projects/allProjects";
-import { ThemeContext } from "../components/common/themeProvider";
 
 import INFO from "../data/user";
 import SEO from "../data/seo";
@@ -23,8 +18,7 @@ import myArticles from "../data/articles";
 import "./styles/homepage.css";
 
 const Homepage = () => {
-  const { darkMode } = false;
-  // const { darkMode } = useContext(ThemeContext);
+  const { darkMode } = { darkMode: false };
   const [stayLogo, setStayLogo] = useState(false);
   const [logoSize, setLogoSize] = useState(80);
   const [oldLogoSize, setOldLogoSize] = useState(80);
@@ -36,7 +30,6 @@ const Homepage = () => {
   useEffect(() => {
     const handleScroll = () => {
       let scroll = Math.round(window.pageYOffset, 2);
-
       let newLogoSize = 80 - (scroll * 4) / 10;
 
       if (newLogoSize < oldLogoSize) {
@@ -84,94 +77,56 @@ const Homepage = () => {
 
       <div className="page-content">
         <NavBar active="home" />
+
         <div className="content-wrapper">
-          <div className="homepage-logo-container">
+        <div className="homepage-logo-container">
             <div style={logoStyle}>
               <Logo width={logoSize} link={false} />
             </div>
           </div>
 
-          <div style={containerStyle} className="homepage-container">
+          <div className="homepage-container" style={containerStyle}>
             <div className="homepage-first-area">
               <div className="homepage-first-area-left-side">
-                <div className="title homepage-title">
-                  {INFO.homepage.title}
-                </div>
-                <div className="subtitle homepage-subtitle">
-                  {INFO.homepage.description}
-                </div>
+                <div className="title homepage-title">{INFO.homepage.title}</div>
+                <div className="subtitle homepage-subtitle">{INFO.homepage.description}</div>
               </div>
 
               <div className="homepage-first-area-right-side">
                 <div className="homepage-image-container">
                   <div className="homepage-image-wrapper">
-                    <img
-                      src="display-pic.png"
-                      alt="about"
-                      className="homepage-image"
-                    />
+                    <img src="display-pic.png" alt="about" className="homepage-image" />
                   </div>
                 </div>
               </div>
             </div>
 
             <div className="homepage-socials">
-              <a
-                href={INFO.socials.github}
-                target="_blank"
-                rel="noreferrer"
-              >
-                <FontAwesomeIcon
-                  icon={faGithub}
-                  className="homepage-social-icon"
-                />
+              <a href={INFO.socials.github} target="_blank" rel="noreferrer">
+                <FontAwesomeIcon icon={faGithub} className="homepage-social-icon" />
               </a>
-              <a
-                href={INFO.socials.instagram}
-                target="_blank"
-                rel="noreferrer"
-              >
-                <FontAwesomeIcon
-                  icon={faInstagram}
-                  className="homepage-social-icon"
-                />
+              <a href={INFO.socials.instagram} target="_blank" rel="noreferrer">
+                <FontAwesomeIcon icon={faInstagram} className="homepage-social-icon" />
               </a>
-              <a
-                href={`mailto:${INFO.main.email}`}
-                target="_blank"
-                rel="noreferrer"
-              >
-                <FontAwesomeIcon
-                  icon={faEnvelope}
-                  className="homepage-social-icon"
-                />
+              <a href={`mailto:${INFO.main.email}`} target="_blank" rel="noreferrer">
+                <FontAwesomeIcon icon={faEnvelope} className="homepage-social-icon" />
               </a>
             </div>
 
             <div className="homepage-works">
-                <Works />
-              </div>
+              <Works />
+            </div>
 
-            <br></br><br></br>
             <div className="homepage-projects">
-              <div className="homepage-subsubtitle">
-                Projects
-              </div>
-
+              <div className="homepage-subsubtitle">Projects</div>
               <AllProjects />
             </div>
 
-            <div className="homepage-subsubtitle">
-              Articles
-            </div>
-
+            <div className="homepage-subsubtitle">Articles</div>
             <div className="homepage-after-title">
               <div className="homepage-articles">
                 {myArticles.map((article, index) => (
-                  <div
-                    className="homepage-article"
-                    key={(index + 1).toString()}
-                  >
+                  <div className="homepage-article" key={(index + 1).toString()}>
                     <Article
                       key={(index + 1).toString()}
                       date={article().date}
@@ -182,7 +137,6 @@ const Homepage = () => {
                   </div>
                 ))}
               </div>
-
             </div>
 
             <div className="page-footer">

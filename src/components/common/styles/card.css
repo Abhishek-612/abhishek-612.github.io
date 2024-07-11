@@ -4,10 +4,15 @@
 	mix-blend-mode: normal;
 	border-radius: 20px;
 	outline: 2px solid #f4f4f5;
+	margin-left: 5px;
+	margin-right: 5px;
+	margin-bottom: 10px;
 }
 
 .card-container {
-	padding: 30px;
+	padding: 20px;
+	padding-top: 40px;
+	padding-left: 40px;
 	padding-bottom: 5px;
 }
 
