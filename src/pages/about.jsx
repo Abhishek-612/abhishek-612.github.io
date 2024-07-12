@@ -70,7 +70,7 @@ const About = () => {
                                     <div className="subtitle about-subtitle">
                                         <p>Check out my resume for a better view of my skillset:</p>
                                     </div>
-                                    <ul>
+                                    <ul className="about-resume-list">
                                         <li 
                                             style={{
                                             paddingTop: '10px' }}>

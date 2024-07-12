@@ -212,7 +212,7 @@ function spit_article() {
 
 function oculus_article() {
 	return {
-		date: "31 March, 2020",
+		date: "31 March 2020",
 		title: "Igniting Passion, Unleashing Creativity, and Leaving an Impact: The Extravaganza of Oculus 2020",
 		description:
 		"Step into the vibrant world of Oculus 2020, the annual techno-cultural festival of Sardar Patel Institute of Technology. Join me on a journey through the exhilarating moments and the impact we created.",
@@ -337,7 +337,7 @@ function oculus_article() {
 
 function eyecando_article() {
 	return {
-		date: "15 December, 2023",
+		date: "15 December 2023",
 		title: "Navigating New Frontiers: EyeCanDo's Pioneering Tech for ALS Patient",
 		description:
 		"Join me on a journey inside EyeCanDo, where cutting-edge tech meets human resilience. This is the story of how we're empowering ALS patients with just their gaze, turning science fiction into reality at Stony Brook University.",
