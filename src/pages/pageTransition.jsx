@@ -64,7 +64,6 @@ const LogoTransition = ( {stay} ) => {
         const [logoSize, setLogoSize] = useState(80);
         const [oldLogoSize, setOldLogoSize] = useState(80);
 
-
         useEffect(() => {
             window.scrollTo(0, 0);
         }, []);
@@ -104,8 +103,6 @@ const LogoTransition = ( {stay} ) => {
         };
     
 
-    
-    console.log(stay, stayLogo)
     return (
         <React.Fragment>
             <div className={stay === "true" ? "fixed-logo-container" : stayLogo ? "fixed-logo-container" : "relative-logo-container"} style={stay==="false" && stayLogo ? {paddingBottom: '13.5%'} : {}}>
