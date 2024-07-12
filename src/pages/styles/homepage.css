@@ -18,7 +18,9 @@ body {
 
 
 .homepage-container {
-    padding: 25px;
+	margin-top: 80px;
+	padding-top: 40px;
+	padding: 20px;
 }
 
 .homepage-first-area {
@@ -49,6 +51,14 @@ body {
     font-size: 36px;
     color: var(--secondary-color);
     margin-top: 20px;
+}
+
+.homepage-first-area-right-side-container {
+    display: column;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+    padding: 10px;
 }
 
 .homepage-first-area-right-side {
