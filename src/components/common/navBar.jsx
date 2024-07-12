@@ -1,6 +1,5 @@
 import React from "react";
 import { Link } from "react-router-dom";
-
 import "./styles/navBar.css";
 
 const NavBar = (props) => {
@@ -12,58 +11,19 @@ const NavBar = (props) => {
 				<nav className="navbar">
 					<div className="nav-background">
 						<ul className="nav-list">
-							<li
-								className={
-									active === "home"
-										? "nav-item active"
-										: "nav-item"
-								}
-							>
+							<li className={`nav-item ${active === "/" ? "active" : ""}`}>
 								<Link to="/">Home</Link>
 							</li>
-							<li
-								className={
-									active === "about"
-										? "nav-item active"
-										: "nav-item"
-								}
-							>
+							<li className={`nav-item ${active === "/about" ? "active" : ""}`}>
 								<Link to="/about">About</Link>
 							</li>
-							<li
-								className={
-									active === "projects"
-										? "nav-item active"
-										: "nav-item"
-								}
-							>
+							<li className={`nav-item ${active === "/projects" ? "active" : ""}`}>
 								<Link to="/projects">Projects</Link>
 							</li>
-							<li
-								className={
-									active === "articles"
-										? "nav-item active"
-										: "nav-item"
-								}
-							>
+							<li className={`nav-item ${active === "/articles" ? "active" : ""}`}>
 								<Link to="/articles">Articles</Link>
 							</li>
-							{/* <li
-								className={
-									active === "memories"
-										? "nav-item active"
-										: "nav-item"
-								}
-							>
-								<Link to="/memories">Memories</Link>
-							</li>	 */}
-							<li
-								className={
-									active === "contact"
-										? "nav-item active"
-										: "nav-item"
-								}
-							>
+							<li className={`nav-item ${active === "/contact" ? "active" : ""}`}>
 								<Link to="/contact">Contact</Link>
 							</li>
 						</ul>

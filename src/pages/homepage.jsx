@@ -1,12 +1,10 @@
-import React, { useState, useEffect } from "react";
+import React from "react";
 import { Helmet } from "react-helmet";
 import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGithub, faInstagram } from "@fortawesome/free-brands-svg-icons";
 
-import Logo from "../components/common/logo";
 import Footer from "../components/common/footer";
-import NavBar from "../components/common/navBar";
 import Article from "../components/homepage/article";
 import Works from "../components/homepage/works";
 import AllProjects from "../components/projects/allProjects";
@@ -19,53 +17,13 @@ import "./styles/homepage.css";
 
 const Homepage = () => {
   const { darkMode } = { darkMode: false };
-  const [stayLogo, setStayLogo] = useState(false);
-  const [logoSize, setLogoSize] = useState(80);
-  const [oldLogoSize, setOldLogoSize] = useState(80);
-
-  useEffect(() => {
-    window.scrollTo(0, 0);
-  }, []);
-
-  useEffect(() => {
-    const handleScroll = () => {
-      let scroll = Math.round(window.pageYOffset, 2);
-      let newLogoSize = Math.round(80 - (scroll * 3.25) / 10, 2);
-
-      if (newLogoSize < oldLogoSize) {
-        if (newLogoSize > 40) {
-          setLogoSize(newLogoSize);
-          setOldLogoSize(newLogoSize);
-          setStayLogo(false);
-        } else {
-          setStayLogo(true);
-        }
-      } else {
-        setLogoSize(newLogoSize);
-        setStayLogo(false);
-      }
-    };
-
-    window.addEventListener("scroll", handleScroll);
-    return () => window.removeEventListener("scroll", handleScroll);
-  }, [logoSize, oldLogoSize]);
 
   const currentSEO = SEO.find((item) => item.page === "home");
 
-  const logoStyle = {
-    display: "flex",
-    position: stayLogo ? "fixed" : "relative",
-    top: stayLogo ? "2.75vh" : "auto",
-    zIndex: 999,
-    border: "1px solid white",
-    borderRadius: "50%",
-    boxShadow:  "0px 4px 10px rgba(0, 0, 0, 0.25)" ,
-  };
 
   const containerStyle = {
     background: darkMode ? "#333" : "#fff",
     color: darkMode ? "#fff" : "#333",
-    marginTop: stayLogo ? "40px" : "0px",
   };
 
   return (
@@ -77,14 +35,8 @@ const Homepage = () => {
       </Helmet>
 
       <div className="page-content">
-        <NavBar active="home" />
-
+      
         <div className="content-wrapper">
-        <div className="homepage-logo-container">
-            <div style={logoStyle}>
-              <Logo width={logoSize} link={false} />
-            </div>
-          </div>
 
           <div className="homepage-container" style={containerStyle}>
             <div className="homepage-first-area">
