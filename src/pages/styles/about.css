@@ -11,7 +11,7 @@
     border: 1px solid white;
     border-radius: 50%;
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
-    top: 4vh;
+    top: 2.75vh;
 }
 
 .about-container {
@@ -31,6 +31,8 @@
 .about-right-side {
     flex: 1;
     padding-right: 20px; 
+    padding-left: 50px; 
+	align-items: center;
 }
 
 .about-title {
@@ -45,7 +47,8 @@
     display: flex;
     flex-direction: column;
     flex-basis: 300px;
-    padding-left: 20px; 
+    padding-left: 40px; 
+	align-items: center;
 }
 
 .about-image-container {
@@ -68,10 +71,12 @@
 .about-socials {
     padding-top: 50px;
     padding-bottom: 50px;
+    margin-left: -80px; 
 }
 
 .about-socials-mobile {
     display: none;
+    padding-left: 40px; 
 }
 
 @media (max-width: 1024px) {

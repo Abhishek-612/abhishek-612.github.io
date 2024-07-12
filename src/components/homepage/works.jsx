@@ -32,6 +32,7 @@ const Works = () => {
                                         <li>Designed an AFL based TrustZone kernel fuzzer for the secure world in ARM Trusted Execution Environment.</li>
                                         <li>Built custom Trusted Applications in C, for OPTEE and tested buffer overflow vulnerabilities using address sanitizers.</li>
                                         <li>Analyzed kernel image binaries using Angr.io and Ghidra, and studied the kernel MMU configuration.</li>
+										<li>Contributed to OPTEE-OS core by patching handlers for Undefined Behavior Sanitizer, and 7 other kernel panic bugs.</li>
                                     </ul>
                                 </div>
                             </div>
