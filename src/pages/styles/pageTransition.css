@@ -25,7 +25,7 @@
 	display: flex;
 	justify-content: center;
 	gap: 2vw;
-	max-width: 80%; /* Initial max-width for larger screens */
+	max-width: 80%; 
 }
 
 .fixed-logo {
@@ -65,8 +65,8 @@
 		padding-top: 30px;
 	}
 	.fixed-logo {
-		width: 50px; /* Fixed size for larger screens */
-		height: 50px; /* Fixed size for larger screens */
+		width: 50px; 
+		height: 50px; 
 	}
 }
 
@@ -82,8 +82,8 @@
 		padding-top: 30px;
 	}
 	.fixed-logo {
-		width: 50px; /* Adjusted size for medium screens */
-		height: 50px; /* Adjusted size for medium screens */
+		width: 50px; 
+		height: 50px; 
 	}
 }
 
@@ -96,34 +96,34 @@
 		margin-right: 120px;
 	}
 	.navbar-container {
-		max-width: 70%; /* Adjusting the max-width */
+		max-width: 70%; 
 	}
 	.main-content {
 		padding-top: 40px;
 	}
 	.fixed-logo {
-		width: 50px; /* Adjusted size for small screens */
-		height: 50px; /* Adjusted size for small screens */
+		width: 50px; 
+		height: 50px; 
 	}
 }
 
 /* For Extra Small Screens (Mobiles) */
 @media only screen and (max-width: 767px) {
 	.logo-navbar-container {
-		margin-right: 160px; /* Adjusting the margin */
+		margin-right: 160px; 
 	}
 	.logo-container {
 		margin-right: 60px;
 	}
 	.navbar-container {
-		max-width: 60%; /* Adjusting the max-width */
-		gap: 10px; /* Reducing gap between elements */
+		max-width: 60%;
+		gap: 10px; 
 	}
 	.main-content {
 		padding-top: 60px;
 	}
 	.fixed-logo {
-		width: 50px; /* Adjusted size for extra small screens */
-		height: 50px; /* Adjusted size for extra small screens */
+		width: 50px; 
+		height: 50px; 
 	}
 }

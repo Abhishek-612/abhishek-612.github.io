@@ -103,7 +103,7 @@
   }
 }
 
-/* Media Queries for Responsiveness */
+
 @media (max-width: 1200px) {
   .nav-background {
     max-width: 500px;
