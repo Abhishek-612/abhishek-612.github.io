@@ -117,7 +117,8 @@ const INFO = {
 			title: "DataSurge: A Distributed, Real-Time Data Pipeline",
 			description:
 				"A powerful application for real-time distributed data pipelines. With modular data input and processing utilities, it simplifies handling data from multiple sources seamlessly. Experience the transformative capabilities of streamlined data processing and unlock valuable insights in real-time. Stay tuned for ongoing developments in this project!",
-			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/java/java.png",
+			// logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/java/java.png",
+			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/python/python.png",
 			linkText: "View Project",
 			link: "https://github.com/Abhishek-612/Scalable-Real-time-Data-Pipeline",
 			ongoing: true,
