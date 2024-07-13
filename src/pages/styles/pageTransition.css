@@ -1,25 +1,129 @@
-.relative-logo-container {
-	display: flex;
-	justify-content: left;
-	align-items: center;
-	margin-top: 150px;
-    z-index: 999;
+.page-content {
+	position: relative;
+	width: 100%;
 }
 
-.fixed-logo-container {
+.logo-navbar-container {
+	position: fixed;
+	top: 1vh;
+	left: 0;
+	right: 0;
 	display: flex;
-	justify-content: left;
-    margin-left: 15%;
-    
-    z-index: 999;
+	justify-content: center;
+	gap: 20px;
+	align-items: center;
+	padding: 20px 0;
+	margin-right: 550px;
+	z-index: 1000;
+}
+
+.logo-container {
+	display: flex;
+}
+
+.navbar-container {
+	display: flex;
+	justify-content: center;
+	gap: 2vw;
+	max-width: 80%; /* Initial max-width for larger screens */
 }
 
 .fixed-logo {
+	width: 3vw;
+	height: 3vw;
 	display: flex;
-	position: fixed;
-	border: 1px solid white;
+	justify-content: center;
+	align-items: center;
 	border-radius: 50%;
-	box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
-	top: 3vh;
-    z-index: 999;
+	box-shadow: 0px 0.4vw 1vw rgba(0, 0, 0, 0.25);
+	background: white;
+}
+
+.progress-ring {
+	position: fixed;
+}
+
+.progress-ring__circle {
+	transition: 0.35s stroke-dashoffset;
+	transform: rotate(-90deg);
+	transform-origin: 50% 50%;
+}
+
+.main-content {
+	padding-top: 15vh;
+}
+
+/* For Extra Large Screens (Desktops) */
+@media only screen and (min-width: 1200px) {
+	.logo-navbar-container {
+		margin-right: 550px;
+	}
+	.logo-container {
+		margin-right: 240px;
+	}
+	.main-content {
+		padding-top: 30px;
+	}
+	.fixed-logo {
+		width: 50px; /* Fixed size for larger screens */
+		height: 50px; /* Fixed size for larger screens */
+	}
+}
+
+/* For Medium Screens (Laptops) */
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+	.logo-navbar-container {
+		margin-right: 400px;
+	}
+	.logo-container {
+		margin-right: 180px;
+	}
+	.main-content {
+		padding-top: 30px;
+	}
+	.fixed-logo {
+		width: 50px; /* Adjusted size for medium screens */
+		height: 50px; /* Adjusted size for medium screens */
+	}
+}
+
+/* For Small Screens (Tablets) */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+	.logo-navbar-container {
+		margin-right: 300px;
+	}
+	.logo-container {
+		margin-right: 120px;
+	}
+	.navbar-container {
+		max-width: 70%; /* Adjusting the max-width */
+	}
+	.main-content {
+		padding-top: 40px;
+	}
+	.fixed-logo {
+		width: 50px; /* Adjusted size for small screens */
+		height: 50px; /* Adjusted size for small screens */
+	}
+}
+
+/* For Extra Small Screens (Mobiles) */
+@media only screen and (max-width: 767px) {
+	.logo-navbar-container {
+		margin-right: 160px; /* Adjusting the margin */
+	}
+	.logo-container {
+		margin-right: 60px;
+	}
+	.navbar-container {
+		max-width: 60%; /* Adjusting the max-width */
+		gap: 10px; /* Reducing gap between elements */
+	}
+	.main-content {
+		padding-top: 60px;
+	}
+	.fixed-logo {
+		width: 50px; /* Adjusted size for extra small screens */
+		height: 50px; /* Adjusted size for extra small screens */
+	}
 }

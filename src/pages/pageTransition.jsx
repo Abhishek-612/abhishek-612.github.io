@@ -1,10 +1,11 @@
 // PageTransition.jsx
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useRef } from 'react';
 import { useLocation } from 'react-router-dom';
 import { AnimatePresence, motion } from 'framer-motion';
 import Logo from "../components/common/logo";
 import NavBar from "../components/common/navBar";
 import "./styles/pageTransition.css";
+import "../data/styles.css";
 
 
 const routeVariants = {
@@ -58,82 +59,80 @@ const routeVariants = {
   };
 
 
-const LogoTransition = ( {stay} ) => {
-
-        const [stayLogo, setStayLogo] = useState(false);
-        const [logoSize, setLogoSize] = useState(80);
-        const [oldLogoSize, setOldLogoSize] = useState(80);
-
-        useEffect(() => {
-            window.scrollTo(0, 0);
-        }, []);
-
-        useEffect(() => {
-            const handleScroll = () => {
-            let scroll = Math.round(window.pageYOffset, 2);
-            let newLogoSize = Math.round(80 - (scroll * 2.7) / 10, 2);
-
-            if (newLogoSize < oldLogoSize) {
-                if (newLogoSize > 46) {
-                setLogoSize(newLogoSize);
-                setOldLogoSize(newLogoSize);
-                setStayLogo(false);
-                } else {
-                setStayLogo(true);
-                }
-            } else {
-                setLogoSize(newLogoSize);
-                setStayLogo(false);
-            }
-            }
-
-            window.addEventListener("scroll", handleScroll);
-            return () => window.removeEventListener("scroll", handleScroll);
-        }, [logoSize, oldLogoSize]);
-
-        const logoStyle = {
-            display: "flex",
-            position: stayLogo ? "fixed" : "relative",
-            top: stayLogo ? "3vh" : "auto",
-            marginLeft: "15%",
-            zIndex: 999,
-            border: "1px solid white",
-            borderRadius: "50%",
-            boxShadow:  "0px 4px 10px rgba(0, 0, 0, 0.25)" ,
-        };
-    
-
+  const LogoTransition = () => {
+    const [progress, setProgress] = useState(0);
+    const circleRef = useRef(null);
+  
+    useEffect(() => {
+      const circle = circleRef.current;
+      const radius = circle.r.baseVal.value;
+      const circumference = radius * 2 * Math.PI;
+      circle.style.strokeDasharray = `${circumference} ${circumference}`;
+      circle.style.strokeDashoffset = circumference;
+  
+      const handleScroll = () => {
+        const scrollTop = window.pageYOffset;
+        const docHeight = document.documentElement.scrollHeight - window.innerHeight;
+        const scrollPercent = scrollTop / docHeight;
+        setProgress(scrollPercent);
+  
+        const offset = circumference - scrollPercent * circumference;
+        circle.style.strokeDashoffset = offset;
+      }
+  
+      window.addEventListener("scroll", handleScroll);
+      return () => window.removeEventListener("scroll", handleScroll);
+    }, []);
+  
     return (
-        <React.Fragment>
-            <div className={stay === "true" ? "fixed-logo-container" : stayLogo ? "fixed-logo-container" : "relative-logo-container"} style={stay==="false" && stayLogo ? {paddingBottom: '13.5%'} : {}}>
-                <div className={stay === "true" ? "fixed-logo" : stayLogo ? "fixed-logo" : ""} style={stay === "true" ? {} : !stayLogo ? logoStyle : {}}>
-                <Logo width={stay === "true" ? 46 : stayLogo ? 46 : logoSize}  link={false}/>
-                </div>
-            </div>
-        </React.Fragment>
+      <div className="logo-container">
+        <div className="fixed-logo">
+          <Logo width={46} link={false} />
+          <svg className="progress-ring" width="86" height="86">
+            <circle
+              ref={circleRef}
+              className="progress-ring__circle"
+              stroke='#265bac'
+              strokeWidth="3"
+              fill='transparent'
+              r="24"
+              cx="43"
+              cy="43"
+            />
+          </svg>
+        </div>
+      </div>
     )
-}
-
-const PageTransition = ({ children }) => {
-  const location = useLocation();
-
-  return (
-    <div className="page-content">
-    <NavBar active={location.pathname} />
-    <LogoTransition stay={location.pathname==="/" ? "false" : "true"} />
-    <AnimatePresence mode='wait'>
-        <motion.div
-          key={location.pathname}
-          variants={routeVariants}
-          initial="initial"
-          animate="animate"
-          exit="exit"
-        >
-          {children}
-        </motion.div>
-    </AnimatePresence>
-    </div>
-  );
-};
-
-export { PageTransition, routeVariants, childVariants };
+  }
+  
+  const PageTransition = ({ children }) => {
+    const location = useLocation();
+  
+    return (
+      <div className="page-content">
+        <div className="logo-navbar-container">
+            <div className="logo-container">
+              <LogoTransition />
+            </div>
+            <div className="navbar-container">
+              <NavBar active={location.pathname} />
+            </div>
+        </div>
+        <div className="main-content">
+          <AnimatePresence mode='wait'>
+            <motion.div
+              key={location.pathname}
+              variants={routeVariants}
+              initial="initial"
+              animate="animate"
+              exit="exit"
+            >
+              {children}
+            </motion.div>
+          </AnimatePresence>
+        </div>
+      </div>
+    );
+  };
+  
+  export { PageTransition, routeVariants, childVariants };
