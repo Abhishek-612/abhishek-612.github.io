@@ -1,20 +1,42 @@
 @import "../../../data/styles.css";
 
 .project {
+	position: relative;
 	mix-blend-mode: normal;
 	border-radius: 20px;
-	opacity: 0.8;
+	opacity: 1.0;
+	background-color: #fff;
 	height: 100%;
-	padding: 20px; 
+	padding: 20px;
+	transition: background-color 0.25s, color 0.25s;
+	box-shadow: 0px 0.3vw 0.5vw rgba(0, 0, 0, 0.25);
 }
 
 .project a {
 	text-decoration: none;
 }
 
+.project::before {
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	border-radius: 20px;
+	border: 1px solid var(--primary-color);
+	transition: border-color 0.25s, width 0.25s ease-out, height 0.25s ease-out;
+	box-sizing: border-box;
+}
+
+.project:hover::before {
+	border-color: var(--link-color);
+}
+
 .project:hover {
 	background: #fafafa;
 	opacity: 1;
+	color: var(--link-color);
 	transition: background-color 0.3s ease-in-out;
 }
 
@@ -24,7 +46,7 @@
 }
 
 .project-container {
-	padding: 30px;
+	padding: 10px;
 }
 
 .project-logo {
@@ -46,7 +68,7 @@
 
 .project-description {
 	color: var(--secondary-color);
-	margin-bottom: 1em; 
+	margin-bottom: 1em;
 	font-size: 17px;
 }
 
@@ -71,25 +93,25 @@
 @media (max-width: 600px) {
 	.project {
 		height: auto;
-		padding: 15px; 
+		padding: 15px;
 	}
 
 	.project-logo {
-		width: 25px; 
+		width: 25px;
 	}
 
 	.project-title {
-		font-size: 14px; 
-		margin-bottom: 0.5em; 
+		font-size: 14px;
+		margin-bottom: 0.5em;
 	}
 
 	.project-description {
-		font-size: 14px; 
-		margin-bottom: 0.5em; 
+		font-size: 14px;
+		margin-bottom: 0.5em;
 	}
 
 	.project-link {
-		font-size: 12px; 
-		padding-top: 10px; 
+		font-size: 12px;
+		padding-top: 10px;
 	}
 }

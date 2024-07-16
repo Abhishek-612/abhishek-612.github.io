@@ -1,5 +1,8 @@
-import React, { useEffect } from "react";
+import React, { useEffect, useState } from "react";
 import { Helmet } from "react-helmet";
+
+import { Carousel } from 'react-responsive-carousel';
+import 'react-responsive-carousel/lib/styles/carousel.min.css';
 
 import Footer from "../components/common/footer";
 import AllProjects from "../components/projects/allProjects";
@@ -17,7 +20,26 @@ const Projects = () => {
 		window.scrollTo(0, 0);
 	}, []);
 
+	const [carouselHeight, setCarouselHeight] = useState("auto");
+
+	useEffect(() => {
+		const updateHeight = () => {
+			const activeSlide = document.querySelector('.carousel .slide.selected');
+			if (activeSlide) {
+				setCarouselHeight(`${activeSlide.offsetHeight}px`);
+			}
+		};
+
+		window.addEventListener('resize', updateHeight);
+		updateHeight();
+
+		return () => {
+			window.removeEventListener('resize', updateHeight);
+		};
+	}, []);
+
 	const currentSEO = SEO.find((item) => item.page === "projects");
+	const projectCategories = ["All", "Application Development", "Systems Development", "Machine Learning", "Open Source"];
 
 	return (
 		<React.Fragment>
@@ -49,10 +71,9 @@ const Projects = () => {
 						</div>
 
 						<div className="projects-list">
-							<AllProjects />
+						<AllProjects />
 						</div>
 
-						<hr />
 						<div className="research-specific-subtitle">
 							Published Work on {" "}
 							<a

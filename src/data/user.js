@@ -114,6 +114,7 @@ const INFO = {
 
 	projects: [
 		{
+			category: "Application Development",
 			title: "DataSurge: A Distributed, Real-Time Data Pipeline",
 			description:
 				"A powerful application for real-time distributed data pipelines. With modular data input and processing utilities, it simplifies handling data from multiple sources seamlessly. Experience the transformative capabilities of streamlined data processing and unlock valuable insights in real-time. Stay tuned for ongoing developments in this project!",
@@ -125,6 +126,7 @@ const INFO = {
 		},
 		
 		{
+			category: "Application Development",
 			title: "EyeCanDo It!",
 			description:
 				"EyeCanDo is a cutting-edge communication platform that empowers people with motor disabilities to communicate using eye gaze and brain-computer interfaces. It utilizes AI, machine learning, and augmented reality on iOS devices (iPad and iPhone) for an accessible and effective communication experience.",
@@ -135,6 +137,7 @@ const INFO = {
 		},
 
 		{
+			category: "Application Development",
 			title: "LinkedIn Automated Bot",
 			description:
 				"Trouble finding opportunities with your dream company? Use this LinkedIn Bot to make meaningful connections with recruiters and employees, gain valuable insights quick and easy! (Limited access)",
@@ -145,6 +148,7 @@ const INFO = {
 		},
 
 		{
+			category: "Systems Development",
 			title: "A Lightweight Hypervisor and VM Latency Measurement",
 			description:
 				"The Lightweight Type 2 Hypervisor is a Linux-based virtualization solution built for Intel VT-x, offering customizable guest code and VM latency measurement capabilities. Explore advanced virtualization techniques and optimize VM performance with this powerful hypervisor.",
@@ -155,6 +159,7 @@ const INFO = {
 		},
 
 		{
+			category: "Machine Learning",
 			title: "NeuroLogic Decoding with LTL Semantics",
 			description:
 				"NeuroLogic Decoding is an innovative approach to constrained text generation, utilizing standard predicate logic at the decode level. This project aimed to enhance the original algorithm by incorporating a subset of Linear Temporal Logic, specifically the \"until\" connective, as constraints, expanding the capabilities of NeuroLogic Decoding.",
@@ -165,6 +170,7 @@ const INFO = {
 		},
 		
 		{
+			category: "Application Development",
 			title: "ScribbleNotes",
 			description:
 				"Don't like typing? No worries, why not write on your phone? You don't even need a stylus, just start scribbling!",
@@ -175,6 +181,7 @@ const INFO = {
 		},
 
 		{
+			category: "Machine Learning",
 			title: "Posture Estimation to gauge Online Attention Span",
 			description:
 				"Harnessing the power of Pose Detection using OpenPose to estimate attention span during online lectures. By analyzing keypoint data, distances, and angles between points, our innovative solution provides valuable insights into individuals' attentivity levels.",
@@ -185,6 +192,7 @@ const INFO = {
 		},
 
 		{
+			category: "Application Development",
 			title: "Distributed Movie Ticket Booking System",
 			description:
 				"A distributed client-server application built using Python, leveraging socket programming and Remote Procedure Call (RPC) mechanism. The system is designed to provide a seamless ticket booking experience for users. It follows a distributed architecture, with multiple servers and a load balancer for efficient handling of user requests. The project utilizes Nginx as the load balancer, ensuring optimal distribution of incoming traffic across three different locations, each equipped with three server ports.",
@@ -195,6 +203,7 @@ const INFO = {
 		},
 		
 		{
+			category: "Machine Learning",
 			title: "Viral News Prediction",
 			description:
 				"A project that utilizes advanced web crawling techniques to retrieve up-to-date news and information from credible online sources. By leveraging social media outreach and news agency coverage, it employs predictive analysis to estimate the potential virality of each headline, providing valuable insights into the expected degree of its spread across platforms.",

@@ -21,7 +21,8 @@
 	margin: 0;
 	margin-top: 80px;
 	padding-top: 40px;
-	padding: 20px;
+	padding: 10px;
+	margin-left: 15px;
 }
 
 .project-specific-subtitle {
@@ -35,6 +36,10 @@
 	width: 70%;
 }
 
+.research-list {
+	margin-top: 10px;
+}
+
 .research-specific-subtitle {
 	height: 100%;
 	margin: 0;
@@ -44,8 +49,10 @@
 	font-size: 30px;
 	font-weight: 700;
 	margin-bottom: -20px;
+	margin-left: 20px;
 	width: 70%;
 }
+
 
 @media (max-width: 600px) {
 	.projects-container {
