@@ -75,7 +75,7 @@ const Homepage = () => {
 
             <div className="homepage-projects">
               <div className="homepage-subsubtitle">Projects</div>
-              <AllProjects />
+              <AllProjects setCarousel={true}/>
             </div>
 
             <div className="homepage-subsubtitle">Articles</div>

@@ -3,11 +3,25 @@ import Carousel from "react-spring-3d-carousel";
 import { config } from "react-spring";
 
 const CustomCarousel = (props) => {
+  const getOffsetRadius = (width) => {
+    if (width < 768) return 1;
+    if (width < 1024) return 2;
+    return 3;
+  };
+
+  const getDimensions = (width) => {
+    if (width < 768) return { width: "70%", height: "500px" };
+    if (width < 1024) return { width: "70%", height: "500px" };
+    return { width: props.width, height: props.height };
+  };
+
   const table = props.cards.map((element, index) => {
-    return { ...element, onClick: () => setGoToSlide(index) };
+    
+    return { ...element, onClick: (e) => handleCardClick(e, index) };
   });
 
-  const [offsetRadius, setOffsetRadius] = useState(2);
+  const [offsetRadius, setOffsetRadius] = useState(getOffsetRadius(window.innerWidth));
+  const [dimensions, setDimensions] = useState(getDimensions(window.innerWidth));
   const [showArrows, setShowArrows] = useState(false);
   const [goToSlide, setGoToSlide] = useState(null);
   const [cards] = useState(table);
@@ -24,11 +38,20 @@ const CustomCarousel = (props) => {
   }, []);
 
   useEffect(() => {
-    setOffsetRadius(props.offset);
     setShowArrows(props.showArrows);
-  }, [props.offset, props.showArrows]);
+  }, [props.showArrows]);
 
-  const startAutoSlide = (delay = 4000) => {
+  useEffect(() => {
+    const handleResize = () => {
+      const width = window.innerWidth;
+      setOffsetRadius(getOffsetRadius(width));
+      setDimensions(getDimensions(width));
+    };
+    window.addEventListener('resize', handleResize);
+    return () => window.removeEventListener('resize', handleResize);
+  }, []);
+
+  const startAutoSlide = (delay = 3000) => {
     clearInterval(intervalRef.current);
     intervalRef.current = setInterval(() => {
       setCurrentSlide((prevSlide) => (prevSlide + 1) % cards.length);
@@ -43,9 +66,17 @@ const CustomCarousel = (props) => {
     clearTimeout(touchTimeoutRef.current);
     touchTimeoutRef.current = setTimeout(() => {
       startAutoSlide();
-    }, 4000); 
+    }, 3000); 
   };
 
+  const handleCardClick = (e, index) => {
+    const linkElement = e.target.innerHTML;
+    if (linkElement.includes('<a')) {
+      window.location.href = linkElement.match(/href="([^"]*)/)[1]; 
+    }
+    setGoToSlide(index);
+  };
+  
 
   const touchStartXRef = useRef(0);
   const touchEndXRef = useRef(0);
@@ -68,6 +99,7 @@ const CustomCarousel = (props) => {
     resetAutoSlide(); 
   };
 
+  
   const handleKeyDown = (e) => {
     resetAutoSlide();
     if (e.key === "ArrowRight") {
@@ -86,7 +118,8 @@ const CustomCarousel = (props) => {
 
   return (
     <div
-      style={{ width: props.width, height: props.height, margin: props.margin }}
+      className="carousel-container"
+      style={{ width: dimensions.width, height: dimensions.height, margin: props.margin }}
       onTouchStart={handleTouchStart}
       onTouchMove={handleTouchMove}
       onTouchEnd={handleTouchEnd}

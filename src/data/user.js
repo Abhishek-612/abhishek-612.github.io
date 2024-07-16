@@ -66,7 +66,7 @@ const INFO = {
 			title: "Pothole detection using accelerometer and computer vision with automated complaint redressal",
 			publishDate: "13 May 2021",
 			conference: "2021 3rd International Conference on Signal Processing and Communication (ICPSC)",
-			cites: "4",
+			cites: "7",
 			description:
 				"This paper addresses the critical issue of road safety by presenting a solution that leverages mobile sensors and image-based techniques to detect potholes in real-time using Machine Learning. By involving civilians in the detection process, authorities can be promptly notified through a web-based portal for necessary action. The solution also includes complaint management, location tagging, prioritization, and provides a forecast of potential pothole-related issues based on continuously updated time series data of various locations.",
 			ongoing: false,
@@ -90,7 +90,7 @@ const INFO = {
 			title: "QORAl: Q Learning Based Delivery Optimization for Pharmacies",
 			publishDate: "1 July 2020",
 			conference: "2020 11th International conference on computing, communication and networking technologies (ICCCNT)",
-			cites: "5",
+			cites: "7",
 			description:
 				"This research work focuses on optimizing home delivery systems in the pharmacy industry, addressing the challenges of order accuracy, delivery speed, and route optimization in a multi-source, multi-destination scenario. It introduces the QORAl algorithm, based on Q-Learning, to efficiently optimize routes with minimal computation time. Additionally, the paper addresses complexities related to the application of e-commerce in healthcare through the implementation of the PharmaQuick ecosystem.",
 			ongoing: false,

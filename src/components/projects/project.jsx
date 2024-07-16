@@ -8,9 +8,16 @@ import "./styles/project.css";
 const Project = (props) => {
 	const { logo, title, description, linkText, link, ongoing } = props;
 
+	const handleClick = (e) => {
+		const linkElement = e.target.innerHTML;
+		if (linkElement.includes('<a')) {
+		window.location.href = linkElement.match(/href="([^"]*)/)[1]; 
+		}
+	  };
+
 	return (
 		<React.Fragment>
-			<div className="project">
+			<div className="project" onClick={handleClick}>
 				<Link to={link}>
 					<div className="project-container">
 						<div className="project-logo-container" style={{

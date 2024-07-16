@@ -6,10 +6,9 @@
 	border-radius: 20px;
 	opacity: 1.0;
 	background-color: #fff;
-	height: 100%;
-	padding: 20px;
-	transition: background-color 0.25s, color 0.25s;
 	box-shadow: 0px 0.3vw 0.5vw rgba(0, 0, 0, 0.25);
+	height: 100%;
+	transition: background-color 0.25s, color 0.25s;
 }
 
 .project a {
@@ -24,7 +23,7 @@
 	width: 100%;
 	height: 100%;
 	border-radius: 20px;
-	border: 1px solid var(--primary-color);
+	border: 1px solid #b6b6b6;
 	transition: border-color 0.25s, width 0.25s ease-out, height 0.25s ease-out;
 	box-sizing: border-box;
 }
@@ -46,7 +45,7 @@
 }
 
 .project-container {
-	padding: 10px;
+	padding: 30px;
 }
 
 .project-logo {
@@ -60,7 +59,7 @@
 .project-title {
 	font-family: var(--secondary-font);
 	color: var(--primary-color);
-	font-size: 19px;
+	font-size: 16px;
 	padding-top: 15px;
 	margin-bottom: 1em;
 	font-weight: 700;
@@ -69,7 +68,7 @@
 .project-description {
 	color: var(--secondary-color);
 	margin-bottom: 1em;
-	font-size: 17px;
+	font-size: 15px;
 }
 
 .project-link {

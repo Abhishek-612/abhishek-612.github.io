@@ -71,7 +71,7 @@ const Projects = () => {
 						</div>
 
 						<div className="projects-list">
-						<AllProjects />
+						<AllProjects setCarousel={false}/>
 						</div>
 
 						<div className="research-specific-subtitle">
