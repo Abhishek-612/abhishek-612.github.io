@@ -10,7 +10,7 @@
 
 .project-card {
 	width: 500px; 
-	height: 400px; 
+	height: 450px; 
 	margin: 10px; 
 	padding: 20px;
 	overflow: hidden; 
@@ -33,10 +33,20 @@
 	.all-projects-project {
 		width: calc(100% / 2);
 	}
+	.project-card {
+		width: 350px;
+		height: 450px;
+	  }
 }
 
 @media (max-width: 600px) {
 	.all-projects-project {
 		width: 100%;
 	}
+
+
+	.project-card {
+		width: 300px;
+		height: 500px;
+	  }
 }
