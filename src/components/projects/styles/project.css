@@ -89,6 +89,24 @@
 	font-weight: 700;
 }
 
+.project-tag {
+	display: inline-block;
+	background-color: gray; 
+	color: white;
+	font-family: 'Roboto', sans-serif;
+	font-size: 10px;
+	padding: 3px 8px;
+	border-radius: 20px;
+	margin: 5px;
+	white-space: nowrap;
+  }
+  
+  .project-tags {
+	display: flex;
+	flex-wrap: wrap;
+	margin-top: 10px;
+  }
+
 @media (max-width: 600px) {
 	.project {
 		height: auto;

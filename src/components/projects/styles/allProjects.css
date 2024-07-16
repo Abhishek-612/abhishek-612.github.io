@@ -29,6 +29,33 @@
 	
 }
 
+
+.category-filter {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 5px;
+	margin: 10px;
+  }
+  
+  .filter-tag {
+	display: inline-block;
+	background-color: gray; 
+	color: white;
+	font-family: 'Roboto', sans-serif;
+	font-size: 12px;
+	border-radius: 20px;
+	margin: 5px;
+	padding: 6px;
+	padding-right: 10px;
+	padding-left: 10px;
+	height: 14px;
+	white-space: nowrap;
+  }
+  
+  .filter-tag.active {
+	border: 1px solid var(--primary-color);
+  }
+
 @media (max-width: 900px) {
 	.all-projects-project {
 		width: calc(100% / 2);

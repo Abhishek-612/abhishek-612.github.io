@@ -2,11 +2,14 @@ import React from "react";
 import { Link } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faLink, } from "@fortawesome/free-solid-svg-icons";
+import { tagColors } from "../../data/tags";
 
 import "./styles/project.css";
 
 const Project = (props) => {
-	const { logo, title, description, linkText, link, ongoing } = props;
+	const { logo, title, description, linkText, link, ongoing, tags, category } = props;
+
+	const combinedTags = [category, ...tags];
 
 	const handleClick = (e) => {
 		const linkElement = e.target.innerHTML;
@@ -32,6 +35,17 @@ const Project = (props) => {
 						</div>
 						<div className="project-title">{title}</div>
 						<div className="project-description">{description}</div>
+						<div className="project-tags">
+							{combinedTags.map((tag) => (
+								<span
+								key={tag}
+								className="project-tag"
+								style={{ backgroundColor: tagColors[tag] }} 
+								>
+								{tag}
+								</span>
+							))}
+						</div>
 						<div className="project-link">
 							<div className="project-link-icon">
 								<FontAwesomeIcon icon={faLink} />
