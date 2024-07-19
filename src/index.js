@@ -4,9 +4,6 @@ import "./index.css";
 import App from "./App";
 import { ThemeProvider } from './components/common/themeProvider';
 import reportWebVitals from "./reportWebVitals";
-import ReactGA from 'react-ga'; 
-
-ReactGA.initialize('G-45Z6STWVYB');
 
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
@@ -17,7 +14,5 @@ root.render(
 		</ThemeProvider>
 	</React.StrictMode>
 );
-
-ReactGA.pageview(window.location.pathname + window.location.search);
 
 reportWebVitals();
